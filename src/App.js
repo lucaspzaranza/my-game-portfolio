@@ -1,19 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { HeaderComponent } from './components/header/header-component';
+import { LanguageProvider } from './contexts/LanguageContext';
 
 function App() {
+  const lang = 'pt-br';
+  //const lang = 'eng-us';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LanguageProvider value={{lang}}>
+      <div className="App">
+        <header className="App-header">
+          {/* Implementar uma navbar pra navegação */}
+          <HeaderComponent/>
+        </header>
+      </div>
+    </LanguageProvider>
   );
 }
 
