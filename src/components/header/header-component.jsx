@@ -1,26 +1,31 @@
-import React from 'react';
+import { React, useContext } from 'react';
+import { LanguageContext } from '../../contexts/LanguageContext.js';
+
 import "nes.css/css/nes.min.css";
 import "rpgui/rpgui.min.css"
 import "rpgui/rpgui.min.js"
-import { LanguageConsumer } from '../../contexts/LanguageContext.js';
 
-import { headData } from '../../data/data.js'
-import { NavBar } from '../nav/navbar.jsx';
+import { headData, mainMenu, languages } from '../../data/data.js'
+import { LangButtonsMenu } from '../lang-buttons/lang-buttons.jsx';
 
-const headDataTitle = headData.ptBR;
+const pt = languages.pt;
+const en = languages.en;
 
-console.log(LanguageConsumer);
+export const HeaderComponent = () => {
+    const langContext = useContext(LanguageContext);
+    const data = langContext[0] === pt ? headData.pt : headData.en;
+    const menu = langContext[0] === pt ? mainMenu.pt : mainMenu.en;
 
-export const HeaderComponent = (props) => (
-    <LanguageConsumer>{(context) => {
-        return (
-            <div>
-                <NavBar/>
-                <h3> {headDataTitle.title}</h3>
-                <h4> {headDataTitle.subtitle}</h4>
-                <h3>Estou no idioma: {context.lang}</h3>
+    return (
+        <div>
+            <LangButtonsMenu/>
+            <br/>
+            <div class="nes-container with-title is-centered is-rounded">
+                <h4 class="title">{menu}</h4>
+                <h3> {data.title}</h3>
+                <h4> {data.subtitle}</h4>
                 <button type="button" className="nes-btn is-primary">Ver mais</button>
             </div>
-        )}}
-    </LanguageConsumer>
-);
+        </div>
+    )
+}

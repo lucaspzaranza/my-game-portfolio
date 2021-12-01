@@ -1,15 +1,15 @@
 import './App.css';
+import React, { useState } from 'react';
 import { HeaderComponent } from './components/header/header-component';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 function App() {
-  const lang = 'pt-br';
-  //const lang = 'eng-us';
+  const [lang, setLang] = useState('pt');
+ 
   return (
-    <LanguageProvider value={{lang}}>
+    <LanguageProvider value={[lang, setLang ]}>
       <div className="App">
         <header className="App-header">
-          {/* Implementar uma navbar pra navegação */}
           <HeaderComponent/>
         </header>
       </div>
