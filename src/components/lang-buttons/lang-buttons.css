@@ -1,8 +1,10 @@
 .flags-nav {
   position: fixed;
-  right: 0%;
+  right: 15px;
 }
 
 .flag {
-  width: 40px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 2px;
 }

@@ -1,9 +1,6 @@
 import { React, useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext.js';
-
-import "nes.css/css/nes.min.css";
-import "rpgui/rpgui.min.css"
-import "rpgui/rpgui.min.js"
+import "./header-component.css"
 
 import { headData, mainMenu, languages } from '../../data/data.js'
 import { LangButtonsMenu } from '../lang-buttons/lang-buttons.jsx';
@@ -19,12 +16,9 @@ export const HeaderComponent = () => {
     return (
         <div>
             <LangButtonsMenu/>
-            <br/>
-            <div class="nes-container with-title is-centered is-rounded">
-                <h4 class="title">{menu}</h4>
-                <h3> {data.title}</h3>
-                <h4> {data.subtitle}</h4>
-                <button type="button" className="nes-btn is-primary">Ver mais</button>
+            <div className="header-container nes-container is-centered">
+                <h2>{data.title}</h2>
+                <h5>{data.subtitle} <span> <i class="snes-logo"/></span></h5>
             </div>
         </div>
     )

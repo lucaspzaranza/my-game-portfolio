@@ -5,9 +5,9 @@ export const languages = {
 
 export const headData = {
   pt: {
-    title: 'Lucas Zaranza', 
+    title: 'Portfólio de Lucas Zaranza', 
     subtitle: 'Desenvolvedor de Jogos',
-    description: 'Seja bem-vindo ao meu portfólio.'
+    description: 'Seja bem-vindo ao meu portfólio de jogos.'
   },
   en: {
     title: "Lucas Zaranza's Portfolio",
@@ -17,6 +17,11 @@ export const headData = {
 };
 
 export const mainMenu = {
-  pt: 'Menu Principal',
-  en: 'Main Menu'
+  pt: {
+    title: 'Menu Principal',
+    selectOption: 'Selecione uma opção'
+  },
+  en: {
+
+  }
 }
