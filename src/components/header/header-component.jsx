@@ -11,14 +11,13 @@ const en = languages.en;
 export const HeaderComponent = () => {
     const langContext = useContext(LanguageContext);
     const data = langContext[0] === pt ? headData.pt : headData.en;
-    const menu = langContext[0] === pt ? mainMenu.pt : mainMenu.en;
 
     return (
         <div>
             <LangButtonsMenu/>
-            <div className="header-container nes-container is-centered">
+            <div className="menu-container nes-container is-centered" >
                 <h2>{data.title}</h2>
-                <h5>{data.subtitle} <span> <i class="snes-logo"/></span></h5>
+                <h5>{data.subtitle} <span><i class="snes-logo"/></span></h5>
             </div>
         </div>
     )

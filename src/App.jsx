@@ -4,9 +4,9 @@ import { HeaderComponent } from './components/header/header-component';
 import { LanguageProvider } from './contexts/LanguageContext';
 
 import "nes.css/css/nes.min.css";
-import "rpgui/rpgui.min.css"
-import "rpgui/rpgui.min.js"
 import MainMenu from './components/main-menu/main-menu';
+import { MadeBy } from './components/made-by/made-by';
+import { AboutMe } from './components/about-me/about-me';
 
 function App() {
   const [lang, setLang] = useState('pt');
@@ -17,7 +17,9 @@ function App() {
         <header className="App-header">
           <HeaderComponent/>
         </header>
-        <MainMenu/>
+        <AboutMe/>
+        {/* <MainMenu/> */}
+        <MadeBy/>
       </div>
     </LanguageProvider>
   );
