@@ -14,7 +14,6 @@ export const HeaderComponent = () => {
 
     return (
         <div>
-            <LangButtonsMenu/>
             <div className="menu-container nes-container is-centered" >
                 <h2>{data.title}</h2>
                 <h5>{data.subtitle} <span><i class="snes-logo"/></span></h5>

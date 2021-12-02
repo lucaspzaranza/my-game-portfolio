@@ -21,22 +21,52 @@ export const mainMenu = {
     title: 'Menu Principal',
     selectOption: 'Selecione uma opção',
     menuOptions: [
-      'Quem sou eu',
-      'Habilidades Técnicas',
-      'Meus Projetos',
-      'Desafios vencidos',
-      'Contato'
+      {
+        router: 'about',
+        desc: 'Quem sou eu'
+      },
+      {
+        router: 'tech-skills',
+        desc: 'Habilidades Técnicas'
+      },
+      {
+        router:'projects',
+        desc: 'Meus Projetos'
+      },
+      {
+        router: 'challenges',
+        desc: 'Desafios vencidos'
+      },
+      {
+        router: 'contact',
+        desc: 'Informações para contato'
+      }
     ]
   },
   en: {
     title: 'Main Menu',
     selectOption: 'Select an option',
     menuOptions: [
-      'About me',
-      'Techical Skills',
-      'My Projects',
-      'Challenges overcome',
-      'Contact me'
+      {
+        router: 'about',
+        desc: 'About me'
+      },
+      {
+        router: 'tech-skills',
+        desc: 'Techical Skills'
+      },
+      {
+        router:'projects',
+        desc: 'My Projects'
+      },
+      {
+        router: 'challenges',
+        desc: 'Overcame challenges'
+      },
+      {
+        router: 'contact',
+        desc: 'Contact info'
+      }
     ]
   }
 }

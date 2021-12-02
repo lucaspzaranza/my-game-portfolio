@@ -8,7 +8,8 @@ export const AboutMe = () => {
     const about = langContext[0] === pt ? aboutMe.pt : aboutMe.en;
 
     return (
-        <div>
+        <div className="menu-container nes-container with-title is-centered">
+            <h5 className="menu-container-title title">About me</h5>
             {
                 about.paragraphs.map(paragraph => (
                     <h3>{paragraph}</h3>

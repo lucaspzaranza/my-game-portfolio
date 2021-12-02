@@ -1,7 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
-import { HeaderComponent } from './components/header/header-component';
 import { LanguageProvider } from './contexts/LanguageContext';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { LangButtonsMenu } from "./components/lang-buttons/lang-buttons.jsx";
 
 import "nes.css/css/nes.min.css";
 import MainMenu from './components/main-menu/main-menu';
@@ -13,14 +14,20 @@ function App() {
  
   return (
     <LanguageProvider value={[lang, setLang ]}>
-      <div className="App">
-        <header className="App-header">
-          <HeaderComponent/>
-        </header>
-        <AboutMe/>
-        {/* <MainMenu/> */}
-        <MadeBy/>
-      </div>
+        <Router>
+          <div className="App">
+            <LangButtonsMenu/>
+              <Switch>
+                <Route exact path="/">
+                  <MainMenu/>
+                </Route>
+                <Route exact path="/about">
+                  <AboutMe/>
+                </Route>
+              </Switch>
+            <MadeBy/>
+          </div>
+        </Router>
     </LanguageProvider>
   );
 }
