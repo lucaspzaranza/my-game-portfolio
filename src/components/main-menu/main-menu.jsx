@@ -7,7 +7,7 @@ import { HeaderComponent } from '../header/header-component';
 import { Link } from 'react-router-dom';
 
 export const MainMenu = () => {
-    const {pt, en} = languages;
+    const {pt} = languages;
     const langContext = useContext(LanguageContext);
     const menu = langContext[0] === pt ? mainMenu.pt : mainMenu.en;
 

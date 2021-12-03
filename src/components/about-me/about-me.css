@@ -1,0 +1,13 @@
+.profile-pic {
+  width: 50%;
+}
+
+.hero-status {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  text-align-last: justify;
+  margin: 0% 32%;
+}

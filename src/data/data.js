@@ -73,12 +73,14 @@ export const mainMenu = {
 
 export const aboutMe = {
   pt: {
+    title: 'Sobre mim',
     paragraphs: [
       'Sou desenvolvedor de jogos.',
       'Vim aqui acabar com você.'
     ]
   },
   en: {
+    title: 'About me',
     paragraphs: [
       'I am a game developer.',
       'I came here to kill you.'
@@ -89,4 +91,9 @@ export const aboutMe = {
 export const madeBy = {
   pt: 'Feito por Lucas Zaranza',
   en: 'Made by Lucas Zaranza'
+}
+
+export const backBtn = {
+  pt: 'Voltar',
+  en: 'Back'
 }

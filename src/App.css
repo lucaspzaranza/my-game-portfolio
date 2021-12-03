@@ -21,3 +21,7 @@ ul.no-bullets {
 ul li {
   margin-bottom: 10px;
 }
+
+.justify-content {
+  text-align: justify;
+}
