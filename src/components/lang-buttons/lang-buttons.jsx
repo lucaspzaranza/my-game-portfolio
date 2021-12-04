@@ -7,7 +7,7 @@ import { languages } from '../../data/data.js'
 
 export const LangButtonsMenu = () => 
 {
-    const [ lang, setLang ] = useContext(LanguageContext);
+    const [, setLang ] = useContext(LanguageContext);
     const pt = languages.pt;
     const en = languages.en;
 

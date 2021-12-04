@@ -97,3 +97,26 @@ export const backBtn = {
   pt: 'Voltar',
   en: 'Back'
 }
+
+export const playerStatus = {
+  pt: {
+    title: 'Ficha técnica',
+    unity: 'Unity Engine',
+    coding: 'Programação (C#)',
+    creativity: 'Criatividade',
+    teamWork: 'Trabalho em equipe',
+    gameDesign: 'Game Design',
+    pixelArt: 'Pixel Art',
+    gameAudio: 'Áudio para games'
+  },
+  en: {
+    title: 'Player status',
+    unity: 'Unity Engine',
+    coding: 'Coding (C#)',
+    creativity: 'Creativity',
+    teamWork: 'Teamwork',
+    gameDesign: 'Game Design',
+    pixelArt: 'Pixel Art',
+    gameAudio: 'Game Audio'
+  }
+}

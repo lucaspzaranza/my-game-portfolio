@@ -5,7 +5,7 @@ import './made-by.css';
 
 export const MadeBy = () => {
 
-    const {pt, en} = languages;
+    const {pt} = languages;
     const langContext = useContext(LanguageContext);
     const createdBy = langContext[0] === pt? madeBy.pt : madeBy.en;
 
