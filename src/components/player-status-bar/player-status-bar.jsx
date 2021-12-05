@@ -20,10 +20,6 @@ export const PlayerStatusBar = (prop) => {
                     <div className="progress-border" style={{'--progress-width':barWidth + 'px'}}/>
                 </div>
             </div>
-
-            {/* <div className="progress-border" style={{'--progress-width':barWidth + 'px'}}>
-                <div id="prog-bar" className={colorBar} style={{'--progress-fill':fillPercent + 'px'}}/>
-            </div> */}
         </div>
     );
 }

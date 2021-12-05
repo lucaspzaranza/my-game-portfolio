@@ -120,3 +120,15 @@ export const playerStatus = {
     gameAudio: 'Game Audio'
   }
 }
+
+export const playerInfo = {
+  email: 'lucaszaranza@gmail.com',
+  pt: {
+    age: 'Idade: 28 anos',
+    local: 'Fortaleza, CE, Brasil',
+  },
+  en: {
+    age: 'Age: 28 years old',
+    local: 'Fortaleza, CE, Brazil',
+  }
+}

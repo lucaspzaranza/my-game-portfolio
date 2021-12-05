@@ -11,3 +11,10 @@
   text-align-last: justify;
   margin: 0% 32%;
 }
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}

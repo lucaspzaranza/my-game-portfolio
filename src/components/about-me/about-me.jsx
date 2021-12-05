@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import {LanguageContext} from '../../contexts/LanguageContext';
-import { aboutMe, languages, backBtn, playerStatus } from '../../data/data';
+import { aboutMe, languages, backBtn, playerStatus, playerInfo } from '../../data/data';
 import PlayerStatusBar from '../player-status-bar/player-status-bar';
 
-import me from '../../data/images/robot-frame-with-me.png';
+import me from '../../data/images/robot-frame-with-me-2.png';
 import './about-me.css';
 import { Link } from 'react-router-dom';
 
@@ -13,17 +13,28 @@ export const AboutMe = () => {
     const about = langContext[0] === pt ? aboutMe.pt : aboutMe.en;
     const backButton = langContext[0] === pt ? backBtn.pt : backBtn.en;
     const status = langContext[0] === pt ? playerStatus.pt : playerStatus.en;
+    const info = langContext[0] === pt ? playerInfo.pt : playerInfo.en;
+    const email = playerInfo.email;
 
     return (
         <div className="menu-container nes-container with-title is-centered">
             <h5 className="menu-container-title title">{about.title}</h5>
 
             <div className="hero-status">
-                <div>
+                <div style={{display:'block'}}>
                     <img alt="me" src={me} className="profile-pic"/>
+                    <div className="player-info">
+                        <ul style={{listStyle:'none'}}>
+                            <li>{info.age}</li>
+
+                            <li>{info.local}</li>
+
+                            <li>{email}</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div style={{width:'40%'}}>
+                <div style={{width:'36%'}}>
                     <h3>{status.title}:</h3>
 
                     <PlayerStatusBar name={status.coding} value="85"/>

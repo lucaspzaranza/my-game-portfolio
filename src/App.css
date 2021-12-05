@@ -1,3 +1,7 @@
+:root {
+  --pixel-btn: url(data/images/pixel-btn.png);
+}
+
 .App {
   text-align: center;
   background-color: #e2e2e2;
@@ -24,4 +28,8 @@ ul li {
 
 .justify-content {
   text-align: justify;
+}
+
+.nes-btn {
+  border-image-repeat: inherit !important;
 }

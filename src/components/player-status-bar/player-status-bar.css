@@ -5,6 +5,8 @@
   --bar-url-red: url("rpgui/img/progress-red.png");
   --bar-url-blue: url("rpgui/img/progress-blue.png");
   --bar-url-green: url("rpgui/img/progress-green.png");
+  --bar-url-track: url("rpgui/img/progress-bar-track.png");
+  --rounded-corner: url("../../data/images/rounded-corner.png");
 }
 
 .player-status-bar {
@@ -12,7 +14,6 @@
   justify-content: space-between;
   width: auto;
   height: 30px;
-  /* flex-direction: row; */
   margin-bottom: 20px;
 }
 
@@ -55,12 +56,13 @@
 }
 
 .progress-border {
-  z-index: 2;
-  margin: 0px;
   border-style: solid;
   border-width: 3px;
   width: var(--progress-width);
   height: 100%;
+  border-image-slice: 2;
+  border-image-width: 2;
+  border-image-outset: 2;
 }
 
 .progress-border img {
