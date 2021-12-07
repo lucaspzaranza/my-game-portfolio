@@ -11,6 +11,7 @@ export const AboutMe = () => {
     const {pt} = languages;
     const langContext = useContext(LanguageContext);
     const about = langContext[0] === pt ? aboutMe.pt : aboutMe.en;
+    const signature = aboutMe.signature;
     const backButton = langContext[0] === pt ? backBtn.pt : backBtn.en;
     const status = langContext[0] === pt ? playerStatus.pt : playerStatus.en;
     const info = langContext[0] === pt ? playerInfo.pt : playerInfo.en;
@@ -47,15 +48,17 @@ export const AboutMe = () => {
                 </div>
             </div>
 
-            <div className="hero-description is-centered">
+            <div className="hero-description">
                 {
                     about.paragraphs.map(paragraph => (
-                        <h3>{paragraph}</h3>
+                        <p className="description-paragraph">{paragraph}</p>
                     ))
                 }
+
+                    <p><strong>{signature}</strong></p>
                 </div>
 
-            <Link className="nes-btn menu-item-btn" to='/' style={{float:'left'}}>{backButton}</Link>
+            <Link className="nes-btn menu-nav-button" to='/'>{backButton}</Link>
         </div>
     )
 }

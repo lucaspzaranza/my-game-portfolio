@@ -8,8 +8,7 @@
 }
 
 .hero-description {
-  text-align-last: justify;
-  margin: 0% 32%;
+  text-align: left;
 }
 
 .player-info {
@@ -17,4 +16,10 @@
   flex-direction: column;
   text-align: center;
   margin-top: 20px;
+  font-weight: bolder;
+}
+
+.description-paragraph {
+  font-size: 0.83em;
+  font-weight: bold;
 }
