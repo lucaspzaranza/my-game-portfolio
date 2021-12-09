@@ -25,10 +25,10 @@ export const mainMenu = {
         router: 'about',
         desc: 'Quem sou eu'
       },
-      {
-        router: 'tech-skills',
-        desc: 'Habilidades Técnicas'
-      },
+      // {
+      //   router: 'tech-skills',
+      //   desc: 'Habilidades Técnicas'
+      // },
       {
         router:'projects',
         desc: 'Meus Projetos'
@@ -38,7 +38,7 @@ export const mainMenu = {
         desc: 'Desafios vencidos'
       },
       {
-        router: 'contact',
+        router: 'contact-info',
         desc: 'Informações para contato'
       }
     ]
@@ -51,10 +51,10 @@ export const mainMenu = {
         router: 'about',
         desc: 'About me'
       },
-      {
-        router: 'tech-skills',
-        desc: 'Techical Skills'
-      },
+      // {
+      //   router: 'tech-skills',
+      //   desc: 'Techical Skills'
+      // },
       {
         router:'projects',
         desc: 'My Projects'
@@ -64,7 +64,7 @@ export const mainMenu = {
         desc: 'Overcame challenges'
       },
       {
-        router: 'contact',
+        router: 'contact-info',
         desc: 'Contact info'
       }
     ]

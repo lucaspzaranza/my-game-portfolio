@@ -5,9 +5,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { LangButtonsMenu } from "./components/lang-buttons/lang-buttons.jsx";
 
 import "nes.css/css/nes.min.css";
-import MainMenu from './components/main-menu/main-menu';
+import MainMenu from './components/views/main-menu/main-menu.jsx';
 import { MadeBy } from './components/made-by/made-by';
-import { AboutMe } from './components/about-me/about-me';
+import { AboutMe } from './components/views/about-me/about-me';
+import { MyProjects } from './components/views/my-projects/my-projects';
+import Challenges from './components/views/challenges/challenges';
+import ContactInfo from './components/views/contact-info/contact-info';
 
 function App() {
   const [lang, setLang] = useState('pt');
@@ -23,6 +26,15 @@ function App() {
                 </Route>
                 <Route exact path="/about">
                   <AboutMe/>
+                </Route>
+                <Route exact path="/projects">
+                  <MyProjects/>
+                </Route>
+                <Route exact path="/challenges">
+                  <Challenges/>
+                </Route>
+                <Route exact path="/contact-info">
+                  <ContactInfo/>
                 </Route>
               </Switch>
             <MadeBy/>

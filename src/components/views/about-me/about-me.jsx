@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-import {LanguageContext} from '../../contexts/LanguageContext';
-import { aboutMe, languages, backBtn, playerStatus, playerInfo } from '../../data/data';
-import PlayerStatusBar from '../player-status-bar/player-status-bar';
+import {LanguageContext} from '../../../contexts/LanguageContext';
+import { aboutMe, languages, backBtn, playerStatus, playerInfo } from '../../../data/data';
+import PlayerStatusBar from '../../player-status-bar/player-status-bar';
 
-import me from '../../data/images/robot-frame-with-me-2.png';
+import me from '../../../data/images/robot-frame-with-me-2.png';
+import mmxHelmet from '../../../data/images/mmx-helmet.png';
 import './about-me.css';
 import { Link } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ export const AboutMe = () => {
             <div className="hero-status">
                 <div style={{display:'block'}}>
                     <img alt="me" src={me} className="profile-pic"/>
+                    
                     <div className="player-info">
                         <ul style={{listStyle:'none'}}>
                             <li>{info.age}</li>
@@ -55,8 +57,8 @@ export const AboutMe = () => {
                     ))
                 }
 
-                    <p><strong>{signature}</strong></p>
-                </div>
+                <p><strong>{signature}</strong> <img alt="mmx" src={mmxHelmet} style={{marginBottom:15}}/></p>
+            </div>
 
             <Link className="nes-btn menu-nav-button" to='/'>{backButton}</Link>
         </div>

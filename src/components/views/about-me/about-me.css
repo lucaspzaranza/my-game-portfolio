@@ -11,6 +11,10 @@
   text-align: left;
 }
 
+p:last-child {
+  text-align: center;
+}
+
 .player-info {
   display: flex;
   flex-direction: column;
