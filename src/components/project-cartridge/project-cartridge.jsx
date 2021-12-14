@@ -1,13 +1,14 @@
 import React from 'react';
 import './project-cartridge.css';
 
-import cartridge from '../../data/images/snes-cartridge.png';
-
 export const ProjectCartridge = (props) => {
+
     return (
         <div className="projectContainer">
-            <h3 className="projectTitle">{props.name}</h3>
-            <img alt="cartridge" src={cartridge}/>
+            <span className="projectTitle"><strong>{props.name}</strong></span>
+            <div className="cartridge-container">
+                <img alt="image" className="gameImage" src={props.image}/>
+            </div>
         </div>
      );
 }

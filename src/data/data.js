@@ -153,32 +153,72 @@ export const myProjects = {
     title: 'Meus Projetos',
     select: 'Selecione um projeto',
     projects: [
-      'Protótipo Super Bomberman 4',
-      'Protótipo Flappy Bird',
-      'Roleta',
-      'Caça-níqueis',
-      'Jogo da Memória',
-      'Penosas Strike',
-      'Doom of The Penosas (Em desenvolvimento)',
-      'Jogo da Cobrinha',
-      'Protótipo Diep.io',
-      'Pacote de Teclado Virtual do Macbook',
+      {
+        name: 'Protótipo Super Bomberman 4',        
+      },
+      {
+        name: 'Protótipo Flappy Bird',        
+      },
+      {
+        name: 'Roleta',        
+      },
+      {
+        name: 'Caça-níqueis',        
+      },
+      {
+        name: 'Jogo da Memória',        
+      },
+      {
+        name: 'Penosas Strike',        
+      },
+      {
+        name: 'Doom of The Penosas',        
+      },
+      {
+        name: 'Jogo da Cobrinha',        
+      },
+      {
+        name: 'Protótipo Diep.io',        
+      },
+      {
+        name: 'Pacote de Teclado Virtual do Macbook',        
+      }
     ]
   },
   en: {
     title: 'My Projects',
     select: 'Select a project',
     projects: [
-      'Super Bomberman 4 Prototype',
-      'Flappy Bird Prototype',
-      'Roulette Game',
-      'Slot Machine',
-      'Matching Game',
-      'Penosas Strike',
-      'Doom of The Penosas (In progress)',
-      'Snake',
-      'Diep.io Prototype',
-      'Macbook Virtual Keyboard Package',
+      {
+        name: 'Super Bomberman 4 Prototype',        
+      },
+      {
+        name: 'Flappy Bird Prototype',        
+      },
+      {
+        name: 'Roulette Game',        
+      },
+      {
+        name: 'Slot Machine',        
+      },
+      {
+        name: 'Matching Game',        
+      },
+      {
+        name: 'Penosas Strike',        
+      },
+      {
+        name: 'Doom of The Penosas',        
+      },
+      {
+        name: 'Snake',        
+      },
+      {
+        name: 'Diep.io Prototype',        
+      },
+      {
+        name: 'Macbook Virtual Keyboard Package',        
+      }
     ]
   }
 }

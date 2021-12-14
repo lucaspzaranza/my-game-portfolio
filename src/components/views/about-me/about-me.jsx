@@ -36,7 +36,7 @@ export const AboutMe = () => {
                     </div>
                 </div>
 
-                <div style={{width:'36%'}}>
+                <div style={{width:'34em'}}>
                     <h3>{status.title}:</h3>
 
                     <PlayerStatusBar name={status.coding} value="85"/>
