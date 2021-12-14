@@ -1,19 +1,18 @@
 import React, { useContext } from 'react';
 import {LanguageContext} from '../../../contexts/LanguageContext';
-import { aboutMe, languages, backBtn, playerStatus, playerInfo } from '../../../data/data';
+import { aboutMe, languages, playerStatus, playerInfo } from '../../../data/data';
 import PlayerStatusBar from '../../player-status-bar/player-status-bar';
 
 import me from '../../../data/images/robot-frame-with-me-2.png';
 import mmxHelmet from '../../../data/images/mmx-helmet.png';
 import './about-me.css';
-import { Link } from 'react-router-dom';
+import BackButton from '../../back-btn/back-btn';
 
 export const AboutMe = () => {
     const {pt} = languages;
     const langContext = useContext(LanguageContext);
     const about = langContext[0] === pt ? aboutMe.pt : aboutMe.en;
     const signature = aboutMe.signature;
-    const backButton = langContext[0] === pt ? backBtn.pt : backBtn.en;
     const status = langContext[0] === pt ? playerStatus.pt : playerStatus.en;
     const info = langContext[0] === pt ? playerInfo.pt : playerInfo.en;
     const email = playerInfo.email;
@@ -60,7 +59,7 @@ export const AboutMe = () => {
                 <p><strong>{signature}</strong> <img alt="mmx" src={mmxHelmet} style={{marginBottom:15}}/></p>
             </div>
 
-            <Link className="nes-btn menu-nav-button" to='/'>{backButton}</Link>
+            <BackButton/>
         </div>
     )
 }

@@ -25,10 +25,6 @@ export const mainMenu = {
         router: 'about',
         desc: 'Quem sou eu'
       },
-      // {
-      //   router: 'tech-skills',
-      //   desc: 'Habilidades Técnicas'
-      // },
       {
         router:'projects',
         desc: 'Meus Projetos'
@@ -51,10 +47,6 @@ export const mainMenu = {
         router: 'about',
         desc: 'About me'
       },
-      // {
-      //   router: 'tech-skills',
-      //   desc: 'Techical Skills'
-      // },
       {
         router:'projects',
         desc: 'My Projects'
@@ -153,5 +145,40 @@ export const playerInfo = {
   en: {
     age: 'Age: 28 years old',
     local: 'Fortaleza, CE, Brazil',
+  }
+}
+
+export const myProjects = {
+  pt: {
+    title: 'Meus Projetos',
+    select: 'Selecione um projeto',
+    projects: [
+      'Protótipo Super Bomberman 4',
+      'Protótipo Flappy Bird',
+      'Roleta',
+      'Caça-níqueis',
+      'Jogo da Memória',
+      'Penosas Strike',
+      'Doom of The Penosas (Em desenvolvimento)',
+      'Jogo da Cobrinha',
+      'Protótipo Diep.io',
+      'Pacote de Teclado Virtual do Macbook',
+    ]
+  },
+  en: {
+    title: 'My Projects',
+    select: 'Select a project',
+    projects: [
+      'Super Bomberman 4 Prototype',
+      'Flappy Bird Prototype',
+      'Roulette Game',
+      'Slot Machine',
+      'Matching Game',
+      'Penosas Strike',
+      'Doom of The Penosas (In progress)',
+      'Snake',
+      'Diep.io Prototype',
+      'Macbook Virtual Keyboard Package',
+    ]
   }
 }
