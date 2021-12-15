@@ -1,22 +1,23 @@
-import React, { useContext } from 'react';
+import React, { useContext, useRef } from 'react';
 import "nes.css/css/nes.min.css";
 import './my-projects.css'
 
-import { myProjects, languages } from '../../../data/data';
+import { myProjects, languages } from '../../../data/data'
+import Carousel from "framer-motion-carousel";
 import LanguageContext from '../../../contexts/LanguageContext';
 import BackButton from '../../back-btn/back-btn';
 import ProjectCartridge from '../../project-cartridge/project-cartridge';
 
-import penosasStrike from '../../../data/images/game-project-images/penosas-portfolio.png';
-import matchGame from '../../../data/images/game-project-images/jogo-da-memoria.png';
-import bomberman from '../../../data/images/game-project-images/super-bomberman.png';
-import flappyBird from '../../../data/images/game-project-images/flappy-bird.png';
-import roleta from '../../../data/images/game-project-images/roleta.png';
-import slotMachine from '../../../data/images/game-project-images/slot-machine.png';
-import doomOfThePenosas from '../../../data/images/game-project-images/doom-of-the-penosas.png';
-import snake from '../../../data/images/game-project-images/snake.png';
-import diepIo from '../../../data/images/game-project-images/diep.io.png';
-import virtualKeyboard from '../../../data/images/game-project-images/virtual-keyboard.png';
+import penosasStrike from '../../../data/images/game-project-images/cartridges/penosas-strike-cartridge.png';
+import matchGame from '../../../data/images/game-project-images/cartridges/match-game-cartridge.png';
+import bomberman from '../../../data/images/game-project-images/cartridges/super-bomberman-4-cartridge.png';
+import flappyBird from '../../../data/images/game-project-images/cartridges/flappy-bird-cartridge.png';
+import roleta from '../../../data/images/game-project-images/cartridges/roleta-cartridge.png';
+import slotMachine from '../../../data/images/game-project-images/cartridges/slot-machine-cartridge.png';
+import doomOfThePenosas from '../../../data/images/game-project-images/cartridges/doom-of-the-penosas-cartridge.png';
+import snake from '../../../data/images/game-project-images/cartridges/snake-cartridge.png';
+import diepIo from '../../../data/images/game-project-images/cartridges/diep.io-cartridge.png';
+import virtualKeyboard from '../../../data/images/game-project-images/cartridges/virtual-keyboard-cartridge.png';
 
 export const MyProjects = () => {
     const {pt} = languages;
@@ -24,6 +25,8 @@ export const MyProjects = () => {
     const title = langContext[0] === pt ? myProjects.pt.title : myProjects.en.title;
     const projects = langContext[0] === pt ? myProjects.pt.projects : myProjects.en.projects;
     const select = langContext[0] === pt ? myProjects.pt.select : myProjects.en.select;
+
+    const ref = useRef(null);
 
     const images = [
         bomberman,
@@ -38,6 +41,8 @@ export const MyProjects = () => {
         virtualKeyboard
     ]
 
+    const colors = ["#f90", "#ef0", "#e0f"];
+
     const diag = document.getElementById('dialog-default');
     console.log(diag);
     
@@ -46,32 +51,12 @@ export const MyProjects = () => {
             <h5 className="menu-container-title title">{title}</h5>
             <h4 style={{'marginBottom': '30px'}}>{select}</h4>
 
-            {/* <dialog class="nes-dialog" id="dialog-default">
-                <form method="dialog">
-                <p class="title">Dialog</p>
-                <p>Alert: this is a dialog.</p>
-                <menu class="dialog-menu">
-                    <button class="nes-btn">Cancel</button>
-                    <button class="nes-btn is-primary">Confirm</button>
-                </menu>
-                </form>
-            </dialog> */}
-
-            {/* <div className="project-cartridges">
+            <Carousel interval={3000} autoPlay="false">
             {
                 projects.map(project => (
                     <ProjectCartridge name={project.name} image={images[projects.indexOf(project)]}/>
-                ))
-            }
-            </div> */}
-
-            <table className="project-cartridges">
-            {
-                projects.map(project => (
-                    <ProjectCartridge name={project.name} image={images[projects.indexOf(project)]}/>
-                ))
-            }
-            </table>
+            ))}
+            </Carousel>
 
             <BackButton/>
         </div>

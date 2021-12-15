@@ -2,39 +2,22 @@
   --cartridge: url("../../data/images/snes-cartridge-light.png")
 }
 
-.projectContainer {
-  display:flex;
-  flex-direction: column;
-  
-  width: 50%;
-  /* height: 100%; */
-}
-
-.projectTitle {
-  font-size: 90%;
-  margin-bottom: 10px;
-}
-
-.cartridge {
+.project-container {
+  display: inline-block;
   width: 40%;
-  height: auto;
+  height: inherit;
+  margin-bottom: 50px;
 }
 
-.gameImage {
-  border-radius: 0px 0px 15px 15px;
-  width: 55%;
-  margin-top: 0.6em;
-  margin-bottom: 25vh;
-}
-
-.cartridge-container {
+.project-container:hover {
   cursor: pointer;
-  background-image: var(--cartridge);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+}
+
+.game-image {
   width: 100%;
-  /* height: auto; */
-  margin-bottom: 30px;
+}
+
+.game-title {
+  /* text-align: center;
+  align-items: center; */
 }

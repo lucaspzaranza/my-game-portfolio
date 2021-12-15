@@ -157,7 +157,7 @@ export const myProjects = {
         name: 'Protótipo Super Bomberman 4',        
       },
       {
-        name: 'Protótipo Flappy Bird',        
+        name: 'Flappy Bird',        
       },
       {
         name: 'Roleta',        
@@ -181,7 +181,7 @@ export const myProjects = {
         name: 'Protótipo Diep.io',        
       },
       {
-        name: 'Pacote de Teclado Virtual do Macbook',        
+        name: 'Teclado Virtual do Macbook',        
       }
     ]
   },
@@ -193,7 +193,7 @@ export const myProjects = {
         name: 'Super Bomberman 4 Prototype',        
       },
       {
-        name: 'Flappy Bird Prototype',        
+        name: 'Flappy Bird',        
       },
       {
         name: 'Roulette Game',        
@@ -217,7 +217,7 @@ export const myProjects = {
         name: 'Diep.io Prototype',        
       },
       {
-        name: 'Macbook Virtual Keyboard Package',        
+        name: 'Macbook Virtual Keyboard',        
       }
     ]
   }

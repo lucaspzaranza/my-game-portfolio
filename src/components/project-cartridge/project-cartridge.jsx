@@ -3,26 +3,11 @@ import './project-cartridge.css';
 
 export const ProjectCartridge = (props) => {
 
-    const mouseEntered = () => {
-        console.log('mouse entered');
-    };
-
     return (
-        // <div className="projectContainer">
-        //     <span className="projectTitle"><strong>{props.name}</strong></span>
-        //     <div className="cartridge-container">
-        //         <img alt="image" className="gameImage" src={props.image} 
-        //             onMouseEnter={mouseEntered}/>
-        //     </div>
-        // </div>
-        
-        <tr className="projectContainer">
-            <span className="projectTitle"><strong>{props.name}</strong></span>
-            <div className="cartridge-container">
-                <img alt="image" className="gameImage" src={props.image} 
-                    onMouseEnter={mouseEntered}/>
-            </div>
-        </tr>
+        <div className="project-container">
+            <h4 className='game-title' >{props.name}</h4>
+            <img alt="image" className='game-image' src={props.image}/>
+        </div>
      );
 }
 
