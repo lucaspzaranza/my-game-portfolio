@@ -6,7 +6,7 @@ import { LangButtonsMenu } from "./components/lang-buttons/lang-buttons.jsx";
 
 import "nes.css/css/nes.min.css";
 import MainMenu from './components/views/main-menu/main-menu.jsx';
-import { MadeBy } from './components/made-by/made-by';
+import { MadeBy } from './components/footer-made-by/made-by'; 
 import { AboutMe } from './components/views/about-me/about-me';
 import { MyProjects } from './components/views/my-projects/my-projects';
 import Challenges from './components/views/challenges/challenges';
