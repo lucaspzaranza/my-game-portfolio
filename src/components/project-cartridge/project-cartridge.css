@@ -3,8 +3,11 @@
 }
 
 .projectContainer {
-  display: flex;
+  display:flex;
   flex-direction: column;
+  
+  width: 50%;
+  /* height: 100%; */
 }
 
 .projectTitle {
@@ -18,20 +21,20 @@
 }
 
 .gameImage {
-  border-radius: 5px;
-  width: 32%;
-  margin-top: 5px;
-  margin-bottom: 100px;
+  border-radius: 0px 0px 15px 15px;
+  width: 55%;
+  margin-top: 0.6em;
+  margin-bottom: 25vh;
 }
 
 .cartridge-container {
   cursor: pointer;
   background-image: var(--cartridge);
-  background-size: 50%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
-  width: auto;
-  height: auto;
-  margin-left: 25px;
+  background-position-y: center;
+  width: 100%;
+  /* height: auto; */
   margin-bottom: 30px;
 }

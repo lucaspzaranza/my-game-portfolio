@@ -46,7 +46,7 @@ export const MyProjects = () => {
             <h5 className="menu-container-title title">{title}</h5>
             <h4 style={{'marginBottom': '30px'}}>{select}</h4>
 
-            <dialog class="nes-dialog" id="dialog-default">
+            {/* <dialog class="nes-dialog" id="dialog-default">
                 <form method="dialog">
                 <p class="title">Dialog</p>
                 <p>Alert: this is a dialog.</p>
@@ -55,15 +55,23 @@ export const MyProjects = () => {
                     <button class="nes-btn is-primary">Confirm</button>
                 </menu>
                 </form>
-            </dialog>
+            </dialog> */}
 
-            <div className="project-cartridges">
+            {/* <div className="project-cartridges">
             {
                 projects.map(project => (
                     <ProjectCartridge name={project.name} image={images[projects.indexOf(project)]}/>
                 ))
             }
-            </div>
+            </div> */}
+
+            <table className="project-cartridges">
+            {
+                projects.map(project => (
+                    <ProjectCartridge name={project.name} image={images[projects.indexOf(project)]}/>
+                ))
+            }
+            </table>
 
             <BackButton/>
         </div>
