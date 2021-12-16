@@ -1,0 +1,30 @@
+.project-description {
+  text-align: justify;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-baloon {
+  margin-right: 50px !important;
+}
+
+.snes-jp-logo {
+  margin-right: 22px;
+}
+
+.close-button {
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.project-image {
+  max-width: 1100px;
+  max-height: 500px;
+}

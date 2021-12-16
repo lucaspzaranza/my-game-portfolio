@@ -151,37 +151,127 @@ export const playerInfo = {
 export const myProjects = {
   pt: {
     title: 'Meus Projetos',
-    select: 'Selecione um projeto',
+    select: 'Escolha um projeto',
     projects: [
       {
-        name: 'Protótipo Super Bomberman 4',        
+        name: 'Protótipo Super Bomberman 4',
+        year: 2014,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Flappy Bird',        
+        name: 'Flappy Bird',    
+        year: 2014,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Roleta',        
+        name: 'Roleta',    
+        year: 2014,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Caça-níqueis',        
+        name: 'Catch Game',  
+        year: 2015,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Jogo da Memória',        
+        name: 'Caça-níqueis',   
+        year: 2015,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Penosas Strike',        
+        name: 'Jogo da Memória',
+        year: 2015,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Doom of The Penosas',        
+        name: 'Teclado Virtual do Macbook',
+        year: 2017,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Jogo da Cobrinha',        
+        name: 'Penosas Strike',
+        year: 2018,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Protótipo Diep.io',        
+        name: 'Math Factory',  
+        year: 2019,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Teclado Virtual do Macbook',        
+        name: 'Doom of The Penosas',
+        year: 2020,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
+      },
+      {
+        name: 'Jogo da Cobrinha',
+        year: 2021,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
+      },
+      {
+        name: 'Protótipo Diep.io',
+        year: 2021,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       }
     ]
   },
@@ -190,35 +280,143 @@ export const myProjects = {
     select: 'Select a project',
     projects: [
       {
-        name: 'Super Bomberman 4 Prototype',        
+        name: 'Super Bomberman 4 Prototype',
+        year: 2014,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Flappy Bird',        
+        name: 'Flappy Bird',
+        year: 2014,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Roulette Game',        
+        name: 'Roulette Game',
+        year: 2014,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Slot Machine',        
+        name: 'Catch Game',
+        year: 2015,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Matching Game',        
+        name: 'Slot Machine',
+        year: 2015,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Penosas Strike',        
+        name: 'Matching Game',
+        year: 2015,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Doom of The Penosas',        
+        name: 'Macbook Virtual Keyboard', 
+        year: 2017,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Snake',        
+        name: 'Penosas Strike',   
+        year: 2018,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Diep.io Prototype',        
+        name: 'Math Factory',     
+        year: 2019,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       },
       {
-        name: 'Macbook Virtual Keyboard',        
+        name: 'Doom of The Penosas',
+        year: 2020,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
+      },
+      {
+        name: 'Snake',    
+        year: 2021,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
+      },
+      {
+        name: 'Diep.io Prototype',
+        year: 2021,
+        description: [
+          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
+          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+        ],
+        repo: '',
+        demo: ''
       }
     ]
+  }
+}
+
+export const closeBtn = {
+  pt: 'Fechar',
+  en: 'Close'
+}
+
+export const projectLinksButtons = {
+  pt: {
+    github: 'Meu Github',
+    demo: 'Jogar!',
+    youtube: 'Youtube'
+  },
+  en: {
+    github: 'My repo',
+    demo: 'Play me!',
+    youtube: 'Watch me!'
   }
 }

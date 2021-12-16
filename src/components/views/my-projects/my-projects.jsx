@@ -18,6 +18,9 @@ import doomOfThePenosas from '../../../data/images/game-project-images/cartridge
 import snake from '../../../data/images/game-project-images/cartridges/snake-cartridge.png';
 import diepIo from '../../../data/images/game-project-images/cartridges/diep.io-cartridge.png';
 import virtualKeyboard from '../../../data/images/game-project-images/cartridges/virtual-keyboard-cartridge.png';
+import mathFactory from '../../../data/images/game-project-images/cartridges/math-factory-cartridge.png';
+import catchGame from '../../../data/images/game-project-images/cartridges/catch-game-cartridge.png';
+import ProjectDialogDetails from '../../project-dialog-details/project-dialog-details';
 
 export const MyProjects = () => {
     const {pt} = languages;
@@ -26,35 +29,23 @@ export const MyProjects = () => {
     const projects = langContext[0] === pt ? myProjects.pt.projects : myProjects.en.projects;
     const select = langContext[0] === pt ? myProjects.pt.select : myProjects.en.select;
 
-    const ref = useRef(null);
-
     const images = [
-        bomberman,
-        flappyBird,
-        roleta,
-        slotMachine,
-        matchGame,
-        penosasStrike,
-        doomOfThePenosas,
-        snake,
-        diepIo,
-        virtualKeyboard
+        bomberman, flappyBird, roleta, catchGame, slotMachine, matchGame, virtualKeyboard,
+        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo
     ]
-
-    const colors = ["#f90", "#ef0", "#e0f"];
-
-    const diag = document.getElementById('dialog-default');
-    console.log(diag);
     
     return (
-        <div class="menu-container nes-container with-title is-centered">
+        <div className="menu-container nes-container with-title is-centered">
             <h5 className="menu-container-title title">{title}</h5>
             <h4 style={{'marginBottom': '30px'}}>{select}</h4>
-
-            <Carousel interval={3000} autoPlay="false">
+            
+            <Carousel interval={3000} autoPlay={false}>
             {
-                projects.map(project => (
-                    <ProjectCartridge name={project.name} image={images[projects.indexOf(project)]}/>
+                projects.map((project, index) => (
+                    <div key={index}>
+                        <ProjectCartridge name={project.name} projectIndex={index} image={images[index]}/>
+                        <ProjectDialogDetails projectIndex={index} title={project.name} description={project.description}/>
+                    </div>
             ))}
             </Carousel>
 

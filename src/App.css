@@ -12,7 +12,7 @@
 }
 
 .menu-container {
- margin: 0px 15px 30px 15px;
+  margin: 0px 15px 30px 15px;
 }
 
 .menu-container-title {
@@ -32,6 +32,9 @@ ul li {
   text-align: justify;
 }
 
-.nes-btn {
+.nes-btn,
+.nes-dialog,
+.nes-icon,
+.nes-balloon {
   border-image-repeat: inherit !important;
 }

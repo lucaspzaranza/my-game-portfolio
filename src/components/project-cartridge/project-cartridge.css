@@ -1,5 +1,5 @@
 :root {
-  --cartridge: url("../../data/images/snes-cartridge-light.png")
+  --cartridge: url("../../data/images/snes-cartridge-light.png");
 }
 
 .project-container {
@@ -15,9 +15,4 @@
 
 .game-image {
   width: 100%;
-}
-
-.game-title {
-  /* text-align: center;
-  align-items: center; */
 }

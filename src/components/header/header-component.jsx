@@ -13,7 +13,7 @@ export const HeaderComponent = () => {
         <div>
             <div className="menu-container nes-container is-centered">
                 <h2>{data.title}</h2>
-                <h5>{data.subtitle} <span><i class="snes-logo"/></span></h5>
+                <h5>{data.subtitle} <span><i className="snes-logo"/></span></h5>
             </div>
         </div>
     )
