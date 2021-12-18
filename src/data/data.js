@@ -185,17 +185,18 @@ export const myProjectsData = {
       },
       {
         id: 2,
-        name: 'Flappy Bird',    
+        name: 'Roleta',
         description: [
-          "Em 2014 eu tive o meu primeiro emprego onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações. Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o FlappyBird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
-          "Fizemos então algumas adaptações na dificuldade do jogo, já que ele é extremamente difícil (e irritante) e adicionamos algumas funcionalidades pra captação dos dados dos clientes. Como eu fiz o game seguindo vídeo tutoriais não tive dificuldades de implementar a mecânica. O que foi mais complicado foi ter criado um sistema de Ranking para gerar competição entre os participantes do evento e distribuição de prêmios.",
+          "Em 2014 eu tive o meu primeiro emprego onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações. Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
+          "Infelizmente eu perdi os dados do repositório e do projeto Unity do game."
         ]
       },
       {
         id: 3,
-        name: 'Roleta',
+        name: 'Flappy Bird',    
         description: [
-          "Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
+          "Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o FlappyBird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
+          "Fizemos então algumas adaptações na dificuldade do jogo, já que ele é extremamente difícil (e irritante) e adicionamos algumas funcionalidades pra captação dos dados dos clientes. Como eu fiz o game seguindo vídeo tutoriais não tive dificuldades de implementar a mecânica. O que foi mais complicado foi ter criado um sistema de Ranking para gerar competição entre os participantes do evento e distribuição de prêmios.",
         ]
       },
       {
@@ -287,17 +288,19 @@ export const myProjectsData = {
       },
       {
         id: 2,
-        name: 'Flappy Bird',    
+        name: 'Roulette Game',
         description: [
-          "In 2014 I had my first job where I had to develop small games which will be used in corporative events, confraternizations, and so on. The Flappy Bird game were making success by a few time ago, and I was making the game following a YouTube tutorial which was teaching how to do the game in Unity. The guys from my job thought that use this game at the events would be a good deal.",
-          "We made then some adaptations on the game difficulty, since it is extremely hard (and annoying!), we've added some features to client contact info captation, and we were ready to go. As the game were made following a tutorial, I had no great dificulties on the game development. The hard part was to create a ranking system to make people contest between them and manage the prize distribution."
+          "In 2014 I had my first job where I had to develop small games which will be used in corporative events, confraternizations, and so on. This was the first professional game project I've done, but it never came to be used in any event, they were already using another version of the game. I didn't even implement any menu interface, leaving the game mechanics only.",
+          'Unfortunately I lost all the repository and the Unity Editor project data.'
         ]
       },
       {
         id: 3,
-        name: 'Roulette Game',
+        name: 'Flappy Bird',    
         description: [
-          "This was the first professional game project I've done, but it never came to be used in any event, they were already using another version of the game. I didn't even implement any menu interface, leaving the game mechanics only.",
+          "The Flappy Bird game were making success by a few time ago, and I was making the game following a YouTube tutorial which was teaching how to do the game in Unity. The guys from my job thought that use this game at the events would be a good deal.",
+          "We made then some adaptations on the game difficulty, since it is extremely hard (and annoying!), we've added some features to client contact info captation, and we were ready to go. As the game were made following a tutorial, I had no great dificulties on the game development. The hard part was to create a ranking system to make people contest between them and manage the prize distribution.",
+          "Sadly I lost the project repository and Unity project data too."
         ]
       },
       {

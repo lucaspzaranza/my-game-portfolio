@@ -10,8 +10,8 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons/faGithubSquar
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/';
 
 import bomberman from '../../data/images/game-project-images/super-bomberman.png';
-import flappyBird from '../../data/images/game-project-images/flappy-bird.png';
 import roleta from '../../data/images/game-project-images/roleta.png';
+import flappyBird from '../../data/images/game-project-images/flappy-bird.png';
 import catchGame from '../../data/images/game-project-images/catch-game.png';
 import slotMachine from '../../data/images/game-project-images/slot-machine.png';
 import matchGame from '../../data/images/game-project-images/jogo-da-memoria.png';
@@ -30,7 +30,7 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
     const linksButtons = langContext[0] === pt ? projectLinksButtons.pt : projectLinksButtons.en;
     
     const images = [
-        bomberman, flappyBird, roleta, catchGame, slotMachine, matchGame, virtualKeyboard, 
+        bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard, 
         penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo
     ]
 

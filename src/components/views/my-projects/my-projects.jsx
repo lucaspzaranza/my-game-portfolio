@@ -11,8 +11,8 @@ import ProjectCartridge from '../../project-cartridge/project-cartridge';
 import penosasStrike from '../../../data/images/game-project-images/cartridges/penosas-strike-cartridge.png';
 import matchGame from '../../../data/images/game-project-images/cartridges/match-game-cartridge.png';
 import bomberman from '../../../data/images/game-project-images/cartridges/super-bomberman-4-cartridge.png';
-import flappyBird from '../../../data/images/game-project-images/cartridges/flappy-bird-cartridge.png';
 import roleta from '../../../data/images/game-project-images/cartridges/roleta-cartridge.png';
+import flappyBird from '../../../data/images/game-project-images/cartridges/flappy-bird-cartridge.png';
 import slotMachine from '../../../data/images/game-project-images/cartridges/slot-machine-cartridge.png';
 import doomOfThePenosas from '../../../data/images/game-project-images/cartridges/doom-of-the-penosas-cartridge.png';
 import snake from '../../../data/images/game-project-images/cartridges/snake-cartridge.png';
@@ -32,7 +32,7 @@ export const MyProjects = () => {
     const select = langContext[0] === pt ? myProjectsData.pt.select : myProjectsData.en.select;
 
     const images = [
-        bomberman, flappyBird, roleta, catchGame, slotMachine, matchGame, virtualKeyboard,
+        bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard,
         penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo
     ]
     
