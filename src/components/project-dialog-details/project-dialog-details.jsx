@@ -3,10 +3,11 @@ import "nes.css/css/nes.min.css";
 import './project-dialog-details.css'
 
 import LanguageContext from '../../contexts/LanguageContext';
-import { languages, closeBtn, projectLinksButtons } from '../../data/data';
+import { languages, closeBtn, projectLinksButtons, yearMade } from '../../data/data';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons/faGithubSquare';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons/';
 
 import bomberman from '../../data/images/game-project-images/super-bomberman.png';
 import flappyBird from '../../data/images/game-project-images/flappy-bird.png';
@@ -21,10 +22,11 @@ import doomOfThePenosas from '../../data/images/game-project-images/doom-of-the-
 import snake from '../../data/images/game-project-images/snake.png';
 import diepIo from '../../data/images/game-project-images/diep.io.png';
 
-export const ProjectDialogDetails = ({projectIndex, title, description, repo, demo}) => {
+export const ProjectDialogDetails = ({projectIndex, title, description, year, links}) => {
     const {pt} = languages;
     const langContext = useContext(LanguageContext);
     const closeButton = langContext[0] === pt ? closeBtn.pt : closeBtn.en;
+    const yearTxt = langContext[0] === pt ? yearMade.pt : yearMade.en;
     const linksButtons = langContext[0] === pt ? projectLinksButtons.pt : projectLinksButtons.en;
     
     const images = [
@@ -39,22 +41,48 @@ export const ProjectDialogDetails = ({projectIndex, title, description, repo, de
                     <h2 className="title">{title}</h2>
                     <img alt="projectImg" className="project-image" 
                         src={images[projectIndex]} style={{'marginBottom': '30px'}}/>
+
+                    <p className="project-description"><strong>
+                        {yearTxt}: {year}
+                    </strong></p>
                     {
                         description.map(paragraph => (
                             <p className="project-description"><strong>{paragraph}</strong></p>
                         ))
                     }
 
-                    <div className="project-links">
-                        <FontAwesomeIcon icon={faGithubSquare} style={{'fontSize': '100'}}/>
-                        <div className="nes-balloon from-left custom-baloon">
-                            <p>{linksButtons.github}</p>
-                        </div>
+                    <div className="project-links-container">
+                    {
+                        links.repo && 
+                        <a className="project-link" href={links.repo}>
+                            <FontAwesomeIcon icon={faGithubSquare} className='link-icon'
+                                style={{'color': 'black'}}/>
+                            <div className="nes-balloon from-left custom-baloon">
+                                <p>{linksButtons.github}</p>
+                            </div>
+                        </a>
+                    }
+                    
+                    {
+                        links.demo &&
+                        <a className="project-link" href={links.demo}>
+                            <i className="snes-jp-logo" style={{'transform': 'scale(1.7)'}}></i>
+                            <div className="nes-balloon from-left custom-baloon">
+                                <p>{linksButtons.demo}</p>
+                            </div>
+                        </a>
+                    }
 
-                        <i className="snes-jp-logo" style={{'transform': 'scale(1.7)'}}></i>
-                        <div className="nes-balloon from-left custom-baloon">
-                            <p>{linksButtons.demo}</p>
-                        </div>
+                    {
+                        links.youtube &&
+                        <a className="project-link" href={links.youtube}>
+                            <FontAwesomeIcon icon={faYoutube} className='link-icon'
+                                style={{'color': 'red'}}/>
+                            <div className="nes-balloon from-left custom-baloon">
+                                <p>{linksButtons.youtube}</p>
+                            </div>
+                        </a>
+                    }
                     </div>
 
                     <menu className="dialog-menu">

@@ -148,260 +148,307 @@ export const playerInfo = {
   }
 }
 
-export const myProjects = {
+export const yearMade = {
+  pt: 'Ano',
+  en: 'Year'
+}
+
+export const myProjectsYears = [
+  2014,
+  2014,
+  2014,
+  2015,
+  2015,
+  2015,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2021
+]
+
+export const myProjectsData = {
   pt: {
     title: 'Meus Projetos',
     select: 'Escolha um projeto',
-    projects: [
+    data: [
       {
+        id: 1,
         name: 'Protótipo Super Bomberman 4',
-        year: 2014,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Quando eu comecei a estudar Unity eu achei melhor tentar copiar um jogo que eu já conhecesse bem pra focar apenas na programação e não ter que lidar com detalhes de game design ou de criação de gráficos, já que eu poderia apenas pegá-los na internet. Escolhi então o Super Bomberman 4, um clássico do Super Nintendo que eu jogo até hoje.",
+          "Foi com esse projeto que eu tive meus primeiros aprendizados na engine da Unity e em programação, onde eu coloquei em prática pela primeira vez fora da faculdade os conceitos de Orientação a Objeto, Herança, Tipos Genéricos, dentre outras capacidades da linguagem C#.",
+          "Pela falta de experiência, esse foi um projeto em que eu levei meses pra conseguir reproduzir pelo menos a mecânica básica do jogador. Eu desconhecia muitas funcionalidades que a Unity já trazia na sua API e acabei tentando reinventar a roda, por exemplo, tentando criar uma forma de detectar a distância da bomba até a parede e medir a extensão das explosões sem saber que ela possuía uma funcionalidade chamada Raycasting em que calculava essa distância pra mim.",
+          "Hoje eu olho para o código e percebo também que poderia ter feito as coisas de uma maneira muito mais simples e eficaz, vejo também que a escolha de um game com tantas mecânicas como Super Bomberman 4 não foi uma escolha acertada, deveria ter escolhido algo como Super Mario, mas na época eu não tinha experiência o suficiente nem de programação nem de planejamento pra avaliar essas questões. Foi um tipo de choque, mas extremamente divertido. Eu amei ter feito esse Bomberman."
+        ]
       },
       {
+        id: 2,
         name: 'Flappy Bird',    
-        year: 2014,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Em 2014 eu tive o meu primeiro emprego onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações. Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o FlappyBird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
+          "Fizemos então algumas adaptações na dificuldade do jogo, já que ele é extremamente difícil (e irritante) e adicionamos algumas funcionalidades pra captação dos dados dos clientes. Como eu fiz o game seguindo vídeo tutoriais não tive dificuldades de implementar a mecânica. O que foi mais complicado foi ter criado um sistema de Ranking para gerar competição entre os participantes do evento e distribuição de prêmios.",
+        ]
       },
       {
-        name: 'Roleta',    
-        year: 2014,
+        id: 3,
+        name: 'Roleta',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
+        ]
       },
       {
-        name: 'Catch Game',  
-        year: 2015,
+        id: 4,
+        name: 'Catch Game',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Esse foi outro jogo que eu fiz seguindo tutoriais para aprender a utilizar a Unity. Também sem grandes dificuldades, mas mais uma vez precisei implementar interface de menus de rankings e captação de dados dos jogadores, o que deu um pouco mais de trabalho. Por serem eventos que usavam telas touch, precisei encontrar uma forma de abrir o teclado virtual do windows para utilização das telas sem teclado físico.",
+        ]
       },
       {
-        name: 'Caça-níqueis',   
-        year: 2015,
+        id: 5,
+        name: 'Caça-Níqueis',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
+        id: 6,
         name: 'Jogo da Memória',
-        year: 2015,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
+        id: 7,
         name: 'Teclado Virtual do Macbook',
-        year: 2017,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
+        id: 8,
         name: 'Penosas Strike',
-        year: 2018,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
-        name: 'Math Factory',  
-        year: 2019,
+        id: 9,
+        name: 'Math Factory',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
+        id: 10,
         name: 'Doom of The Penosas',
-        year: 2020,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
+        id: 11,
         name: 'Jogo da Cobrinha',
-        year: 2021,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       },
       {
-        name: 'Protótipo Diep.io',
-        year: 2021,
+        id: 12,
+        name: 'Diep.io (Protótipo)',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
+          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+        ]
       }
     ]
   },
   en: {
     title: 'My Projects',
     select: 'Select a project',
-    projects: [
+    data: [
       {
+        id: 1,
         name: 'Super Bomberman 4 Prototype',
-        year: 2014,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "When I started to study Unity I thought it'd be better to copy a game I used to know better to focus in programming and I would not have to deal with game design or art stuff issues, since I'd be able to find them on the Internet. I chose then the Super Bomberman 4, a Super Nintendo classic that I like to play until nowadays.",
+          "It was with this project that I had my first Unity and computer programming lessons, where I put into practice outside the college environment the concepts of Object Orientation, Inheritance, Generic Types, and other C# features.", 
+          "Due the lack of experience, this was a project which it took me a lot of effort and time to make at least the basic player mechanics. I didn't know several Unity API functionalities, and so I ended by trying to reivent the wheel, for example, trying to create a way to return the distance from the bomb to the hit wall and get the explosion extension with it, without noticing Unity has a feature called Raycasting which calculates it to me.",
+          "Today I look to the code and realize I should've done things in an easier and better way, I see either choosing a game with so many mechanics like Bomberman wasn't an accurate choice, I should have chosen something like Super Mario, but at that time I had no coding and planning experience enough to evaluate these questions. That was a kind of shock for me... but extremely funny. I loved to do the Bomberman."
+        ]
       },
       {
-        name: 'Flappy Bird',
-        year: 2014,
+        id: 2,
+        name: 'Flappy Bird',    
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "In 2014 I had my first job where I had to develop small games which will be used in corporative events, confraternizations, and so on. The Flappy Bird game were making success by a few time ago, and I was making the game following a YouTube tutorial which was teaching how to do the game in Unity. The guys from my job thought that use this game at the events would be a good deal.",
+          "We made then some adaptations on the game difficulty, since it is extremely hard (and annoying!), we've added some features to client contact info captation, and we were ready to go. As the game were made following a tutorial, I had no great dificulties on the game development. The hard part was to create a ranking system to make people contest between them and manage the prize distribution."
+        ]
       },
       {
+        id: 3,
         name: 'Roulette Game',
-        year: 2014,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "This was the first professional game project I've done, but it never came to be used in any event, they were already using another version of the game. I didn't even implement any menu interface, leaving the game mechanics only.",
+        ]
       },
       {
+        id: 4,
         name: 'Catch Game',
-        year: 2015,
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+          "This was one more game I made following up Unity YouTube tutorials to learn how to use the game engine. I had no great difficulties either, but one more time I needed to implement menu interface and ranking system to client data retrieving, and that gave me a little more work to do. As the events used touch screens, I needed to find a way to open the Windows Virtual Keyboard to use the screens without use a physical keyboard.",
+        ]
       },
       {
+        id: 5,
         name: 'Slot Machine',
-        year: 2015,
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
-        name: 'Matching Game',
-        year: 2015,
+        id: 6,
+        name: 'Match Game',
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
-        name: 'Macbook Virtual Keyboard', 
-        year: 2017,
+        id: 7,
+        name: 'Macbook Virtual Keyboard ',
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
-        name: 'Penosas Strike',   
-        year: 2018,
+        id: 8,
+        name: 'Penosas Strike',
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
-        name: 'Math Factory',     
-        year: 2019,
+        id: 9,
+        name: 'Math Factory',
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
+        id: 10,
         name: 'Doom of The Penosas',
-        year: 2020,
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
-        name: 'Snake',    
-        year: 2021,
+        id: 11,
+        name: 'Snake Game',
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       },
       {
+        id: 12,
         name: 'Diep.io Prototype',
-        year: 2021,
         description: [
           "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
           "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
-        ],
-        repo: '',
-        demo: ''
+        ]
       }
     ]
   }
 }
+
+export const myProjectsLinks = [
+  {
+    id: 1,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 2,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 3,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 4,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 5,
+    repo: 'https://github.com/lucaspzaranza/slot-machine',
+    demo: 'https://lucaspzaranza.github.io/slot-machine-page/',
+    youtube: ''
+  },
+  {
+    id: 6,
+    repo: 'https://github.com/lucaspzaranza/jogo-memoria',
+    demo: 'https://lucaspzaranza.github.io/jogo-memoria-page/',
+    youtube: ''
+  },
+  {
+    id: 7,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 8,
+    repo: 'https://github.com/lucaspzaranza/penosas-strike',
+    demo: 'https://play.google.com/store/apps/details?id=com.SacroCuore.PenosasStrike&hl=pt_BR&gl=US',
+    youtube: 'https://www.youtube.com/watch?v=1BwDvgHKpX4'
+  },
+  {
+    id: 9,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 10,
+    repo: '',
+    demo: '',
+    youtube: ''
+  },
+  {
+    id: 11,
+    repo: 'https://github.com/lucaspzaranza/snake-project',
+    demo: 'https://lucaspzaranza.github.io/snake-project-page/',
+    youtube: ''
+  },
+  {
+    id: 12,
+    repo: 'https://github.com/lucaspzaranza/diep.io-challenge',
+    demo: '',
+    youtube: ''
+  }
+]  
 
 export const closeBtn = {
   pt: 'Fechar',

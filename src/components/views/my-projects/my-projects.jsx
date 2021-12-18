@@ -1,8 +1,8 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext } from 'react';
 import "nes.css/css/nes.min.css";
 import './my-projects.css'
 
-import { myProjects, languages } from '../../../data/data'
+import { myProjectsData, myProjectsLinks, myProjectsYears, languages } from '../../../data/data'
 import Carousel from "framer-motion-carousel";
 import LanguageContext from '../../../contexts/LanguageContext';
 import BackButton from '../../back-btn/back-btn';
@@ -25,9 +25,11 @@ import ProjectDialogDetails from '../../project-dialog-details/project-dialog-de
 export const MyProjects = () => {
     const {pt} = languages;
     const langContext = useContext(LanguageContext);
-    const title = langContext[0] === pt ? myProjects.pt.title : myProjects.en.title;
-    const projects = langContext[0] === pt ? myProjects.pt.projects : myProjects.en.projects;
-    const select = langContext[0] === pt ? myProjects.pt.select : myProjects.en.select;
+    const title = langContext[0] === pt ? myProjectsData.pt.title : myProjectsData.en.title;
+    const projects = langContext[0] === pt ? myProjectsData.pt.data : myProjectsData.en.data;
+    const projectsLinks = myProjectsLinks;
+    const years = myProjectsYears;
+    const select = langContext[0] === pt ? myProjectsData.pt.select : myProjectsData.en.select;
 
     const images = [
         bomberman, flappyBird, roleta, catchGame, slotMachine, matchGame, virtualKeyboard,
@@ -44,7 +46,8 @@ export const MyProjects = () => {
                 projects.map((project, index) => (
                     <div key={index}>
                         <ProjectCartridge name={project.name} projectIndex={index} image={images[index]}/>
-                        <ProjectDialogDetails projectIndex={index} title={project.name} description={project.description}/>
+                        <ProjectDialogDetails projectIndex={index} year={years[index]} links={projectsLinks[index]}
+                            title={project.name} description={project.description}/>
                     </div>
             ))}
             </Carousel>
