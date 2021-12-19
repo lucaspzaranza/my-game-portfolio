@@ -187,7 +187,7 @@ export const myProjectsData = {
         id: 2,
         name: 'Roleta',
         description: [
-          "Em 2014 eu tive o meu primeiro emprego onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações. Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
+          "Em 2014 eu tive o meu primeiro emprego numa empresa chamada Touch Midia (não existe mais) onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações. Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
           "Infelizmente eu perdi os dados do repositório e do projeto Unity do game."
         ]
       },
@@ -210,24 +210,25 @@ export const myProjectsData = {
         id: 5,
         name: 'Caça-Níqueis',
         description: [
-          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
-          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+          "Nessa empresa em que eu trabalhei também tinha um jogo de caça-níqueis que era utilizado para sorteio de prêmios. Ela era programada pra sempre sair algum prêmio como chaveiros, copos, kits de maguiagem, ingressos, etc. Mas a empresa queria utilizar uma versão que fosse mais fácil de customizar os gráficos de acordo com o evento, e que fosse uma solução feita na Unity. Tive então que criar uma do zero.",
+          "Esse foi um dos projetos que eu mais gostei de ter feito, levei cerca de dois a três meses pra fazer. Aqui eu já tinha mais experiência com a Unity, então me sentia seguro pra fazer tudo do zero, e assim o fiz. Foi bem interessante pensar na lógica pra movimentar os slots do caça-níqueis e implementá-la. Fazer a mecânica da alavanca foi um pouco difícil também. Depois tive que implementar a customização dos gráficos. É um projeto que me traz bastante satisfação até hoje."
         ]
       },
       {
         id: 6,
         name: 'Jogo da Memória',
         description: [
-          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
-          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+          "Outro projeto em que eu trabalhei na Touch Midia foi a criação de um jogo da memória. Esse eu cheguei a ver pessoalmente a utilização em eventos, fiquei bastante feliz em ver as pessoas se divertindo com algo que eu criei com tanto empenho.",
+          "Foi legal criar a rotação das cartas ao serem clicadas, apesar de bastante simples, ficou realista. Fora isso, tive que criar também sistema de Ranking, captação de dados dos jogadores e sistema de atualização de gráficos assim como no jogo de caça-níqueis."
         ]
       },
       {
         id: 7,
         name: 'Teclado Virtual do Macbook',
         description: [
-          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
-          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+          "Os projetos da Touch Midia por serem utilizados em telas touch faziam uso constante do teclado virtual do windows, mas eu me sentia incomodado com a forma de implementação dessa funcionalidade. Alguns scripts estavam me dando alguns problemas com a resolução da tela, e eu tinha receio da solução não funcionar daqui a algum tempo e me preocupava pelo fato de não funcionar em sistemas Android. Achei melhor então criar meu próprio teclado virtual simplificado e exportá-lo como um pacote para utilizar em qualquer projeto que eu quisesse.",
+          "Na época eu já não trabalhava mais na Touch Midia mas ainda os utilizava pra customização de alguns eventos que precisavam desses jogos. Quis fazer também para testar a utilização de alguns conceitos da Unity, como a utilização dos eventos. ",
+          "O projeto foi um sucesso e o utilizo até hoje nesses jogos touch."
         ]
       },
       {
@@ -290,7 +291,7 @@ export const myProjectsData = {
         id: 2,
         name: 'Roulette Game',
         description: [
-          "In 2014 I had my first job where I had to develop small games which will be used in corporative events, confraternizations, and so on. This was the first professional game project I've done, but it never came to be used in any event, they were already using another version of the game. I didn't even implement any menu interface, leaving the game mechanics only.",
+          "In 2014 I had my first job in a company called Touch Midia (doesn't exist anymore) where I had to develop small games which will be used in corporative events, confraternizations, and so on. This was the first professional game project I've done, but it never came to be used in any event, they were already using another version of the game. I didn't even implement any menu interface, leaving the game mechanics only.",
           'Unfortunately I lost all the repository and the Unity Editor project data.'
         ]
       },
@@ -314,24 +315,25 @@ export const myProjectsData = {
         id: 5,
         name: 'Slot Machine',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+          "At the company I worked it had a slot machine game which was used to prize raffling. It was programmed to the player always earn a prize like keychains, cups, make-up kits, tickets, and so on. But the company wanted to used a version of the game which were easier to customize the game graphics acoording to the event, and which was a Unity solution game. I had to create my own slot machine version.",
+          "This was one of the projects I appreciated the most the development, it took me two or three months to make. At that time I was more experienced with Unity, so I felt more confident to make it from scratch, and so I did. That was very interesting to think on the logic to move the slots from the machine and implement it. Make the handler movement mechanic was a little bit hard to do too. Later I had to implement the graphic customization, prize amount control, and UI client data retrieving. I liked the result a lot."
         ]
       },
       {
         id: 6,
         name: 'Match Game',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+          "One more project I had worked on at Touch Midia was the creation of a card matching game. This one I saw with my own eyes people playing it inside an event, I got very proud by seeing people getting fun with something I created with so much effort.",
+          "It was cool to create the card flip rotation when they got clicked, despite the simplicity it turned out a quite realistic thing. Beyond that, I had to create the ranking system, player personal data retrieving, and graphics customization just like the slot machine game."
         ]
       },
       {
         id: 7,
         name: 'Macbook Virtual Keyboard ',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+          "By the fact the Touch Midia projects were used on touch screens, frequently the windows virtual keyboard was necessary to be called inside the projects. But I felt annoyed with the way of using this feature in the games. Some scripts was causing resolution and windowing screen issues, and I've feared the solution will stop working at some point in the future, and I worried because it didn't work on Android systems. I decided to create my own simplified virtual keyboard and export it as a Unity package to reuse in any project I'd wish.",
+          "At that time I wasn't working at Touch Midia anymore, but I still used those games to customize on private events. I wanted to make the virtual keyboard too to test the utilization of some Unity concepts like event triggering.",
+          "The project was a success and I used it until today on these touch games."          
         ]
       },
       {
