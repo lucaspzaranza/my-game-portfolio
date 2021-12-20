@@ -187,7 +187,7 @@ export const myProjectsData = {
         id: 2,
         name: 'Roleta',
         description: [
-          "Em 2014 eu tive o meu primeiro emprego numa empresa chamada Touch Midia (não existe mais) onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações. Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
+          "Em 2014 eu tive o meu primeiro emprego numa empresa chamada Touch Midia (não existe mais) onde eu tinha que desenvolver pequenos jogos que seriam utilizados em eventos de empresas, confraternizações, etc. Esse foi o primeiro projeto profissional que eu cheguei a fazer, mas ele nunca foi utilizado em evento algum, já utilizavam outra versão do produto. Tanto que não cheguei nem a implementar nenhum menu, ficou somente a mecânica do jogo.",
           "Infelizmente eu perdi os dados do repositório e do projeto Unity do game."
         ]
       },
@@ -195,7 +195,7 @@ export const myProjectsData = {
         id: 3,
         name: 'Flappy Bird',    
         description: [
-          "Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o FlappyBird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
+          "Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o Flappy Bird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
           "Fizemos então algumas adaptações na dificuldade do jogo, já que ele é extremamente difícil (e irritante) e adicionamos algumas funcionalidades pra captação dos dados dos clientes. Como eu fiz o game seguindo vídeo tutoriais não tive dificuldades de implementar a mecânica. O que foi mais complicado foi ter criado um sistema de Ranking para gerar competição entre os participantes do evento e distribuição de prêmios.",
         ]
       },
@@ -211,7 +211,7 @@ export const myProjectsData = {
         id: 5,
         name: 'Caça-Níqueis',
         description: [
-          "Nessa empresa em que eu trabalhei também tinha um jogo de caça-níqueis que era utilizado para sorteio de prêmios. Ela era programada pra sempre sair algum prêmio como chaveiros, copos, kits de maguiagem, ingressos, etc. Mas a empresa queria utilizar uma versão que fosse mais fácil de customizar os gráficos de acordo com o evento, e que fosse uma solução feita na Unity. Tive então que criar uma do zero.",
+          "Nessa empresa em que eu trabalhei também tinha um jogo de caça-níqueis que era utilizado para sorteio de prêmios. Ela era programada pra sempre sair algum prêmio como chaveiros, copos, kits de maquiagem, ingressos, etc. Mas a empresa queria utilizar uma versão que fosse mais fácil de customizar os gráficos de acordo com o evento, e que fosse uma solução feita na Unity. Tive então que criar uma do zero.",
           "Esse foi um dos projetos que eu mais gostei de ter feito, levei cerca de dois a três meses pra fazer. Aqui eu já tinha mais experiência com a Unity, então me sentia seguro pra fazer tudo do zero, e assim o fiz. Foi bem interessante pensar na lógica pra movimentar os slots do caça-níqueis e implementá-la. Fazer a mecânica da alavanca foi um pouco difícil também. Depois tive que implementar a customização dos gráficos. É um projeto que me traz bastante satisfação até hoje."
         ]
       },
@@ -237,10 +237,10 @@ export const myProjectsData = {
         name: 'Penosas Strike',
         description: [
           "Em 2017 eu tinha pedido demissão do meu emprego em que trabalhava com .NET pra me dedicar exclusivamente ao desenvolvimento dos meus jogos. Me preparei por alguns meses no final de 2017, e foi nesse período que eu fiz o teclado virtual, em seguida fiz de 2018 um ano sabático em que me dediquei em horário comercial ao desenvolvimento de um indie game.",
-          "Enquanto procurava referências para o tipo de jogo eu iria fazer, me deparei com uma fase bônus do jogo Sunset Riders, onde o jogador tinha que mirar nos bandidos para ganhar pontos extras, e pensei: porque não fazer um jogo em que o jogador precise mirar e atirar em alguma coisa, mas em vez de usar um direcional, utilizar o toque do celular? Foi daí que nasceu o conceito do Penosas Strike.",
+          "Enquanto procurava referências para o tipo de jogo que eu iria fazer, me deparei com uma fase bônus do jogo Sunset Riders, onde o jogador tinha que mirar nos bandidos para ganhar pontos extras, e pensei: porque não fazer um jogo em que o jogador precise mirar e atirar em alguma coisa, mas em vez de usar um direcional, utilizar o toque do celular? Foi daí que nasceu o conceito do Penosas Strike.",
           "Levei cerca de 9 meses (quase uma gravidez xD) pra fazer o projeto inteiro: programação, arte, adicionar trilha sonora, publicar na Play Store, etc. Foi bastante desafiador em vários momentos. O que foi mais difícil de fazer foi a trajetória que os pombos iriam percorrer na tela: tive que utilizar curvas de bézier e criar splines pra criar essa trajetória. Envolveu noções de cálculo matemático, derivadas, tangentes... tive que pesquisar um script que trazia essa implementação e fiz umas adaptações voltadas ao meu projeto.",
           "Outro desafio foi criar a pixel art do jogo, algo que eu nunca tinha feito na vida. Foi bastante trabalhoso, e tive que adaptar muita coisa por conta da minha inexperiência na área.",
-          "Como se não bastasse, nesses 9 meses o meu computador e meu notebook queimaram, e eu fiquei com dores horríveis no meu ombro direito, que é o ombro do braço que eu uso pra escrever e usar o mouse. E como eu não estava trabalhando, não tinha renda pra mandar consertar os computadores nem pra pagar médico pra me tratar do ombro. Sem dúvidas o Penosas Strike foi meu trabalho mais difícil de terminar, mas foi o único que eu consegui chegar até o final e completá-lo.",
+          "Como se não bastasse, nesses 9 meses o meu computador e meu notebook queimaram, e eu fiquei com dores horríveis no meu ombro direito, que é o ombro do braço que eu uso pra escrever e usar o mouse. E como eu não estava trabalhando, não tinha renda pra mandar consertar os computadores nem pra pagar médico pra me tratar do ombro. Sem dúvidas o Penosas Strike foi meu trabalho mais difícil de terminar, mas foi o único projeto autoral que eu consegui chegar até o final e completá-lo.",
           "Um ano depois eu adicionei ao jogo uma skin de natal. Não tinha muita experiência acumulada além da que eu tive ao criar a pixel art padrão do jogo, mas parece que com o tempo que tinha passado eu havia firmado aquela experiência melhor em mim, e por isso senti menos dificuldade com a skin de natal, que ficou até bem melhor que a padrão.",
           "Infelizmente não tive lucro nenhum com o jogo, só prejuízo financeiro, mas pelo menos ficou registrado na minha biografia como a minha maior experiência (frustrada) trabalhando na indústria de	jogos."
         ]
@@ -276,7 +276,7 @@ export const myProjectsData = {
       },
       {
         id: 12,
-        name: 'Diep.io (Protótipo)',
+        name: 'Diep.io',
         description: [
           "Esse também foi um protótipo desenvolvido num processo seletivo em que eu tinha que fazer uma cópia do Diep.io utilizando sistema multiplayer, o prazo era de uma semana. Por conta do meu trabalho e de um freelance que eu tive que fazer, acabei tendo menos tempo que o que eu gostaria de ter tido pra fazer o jogo, mas ainda assim consegui terminá-lo no prazo estipulado.",
           "Assim como no jogo anterior, nesse projeto eu também nunca obetive resposta alguma. Não sei o que acontece nessas processos seletivos, pelo visto meu charme é maior do que eu imaginava e eu acabo deixando todos sem palavras."
@@ -356,7 +356,7 @@ export const myProjectsData = {
           "While I searched references to what kind of game I was going to do, I came across with a bonus stage from the game Sunset Riders, where the player must aim the bandits to earn extra points, and thought: why not make a game where the player has to aim and shoot something, but instead using the directional, use the phone touch? It was from there the concept of Penosas Strike has born.",
           "I spent 9 months (almost a baby xD) to craft the entire project: coding, art, soundtrack adding, and launch at PlayStore. That was very challenging at a lot of moments. The hardest thing I had to do was the pigeon navigation track which they will fly on the screen: had to use bezier splines to create these tracks. It envolved math calculus, derivatives and tangents... had to look for a script who makes it to me and I altered some functionalities to fit better on my project.",
           "Another hard task I had to accomplish was drawing the pixel art, somethig I've never done before in my life. It was very difficult, and I had to adjust a lot of things due my lack of experience with pixel art.",
-          "As if it were not enough, during those 9 months my notebook and computer got broken, and I got several aches on my right shoulder, which was the side of my body I use to write and move the mouse. As I was not working on a paid job, I had no money to fix my devices and do the shoulder treatment. Without any doubts the Penosas Strike was the hardest and heaviest project I've got to finish, and the only one I've made it to the end and achieved the finish goal.",
+          "As if it were not enough, during those 9 months my notebook and computer got broken, and I got several aches on my right shoulder, which was the side of my body I use to write and move the mouse. As I was not working on a paid job, I had no money to fix my devices and do the shoulder treatment. Without any doubts the Penosas Strike was the hardest and heaviest project I've got to finish, and the only indie game I've made it to the end and achieved the finish goal.",
           "One year later I added a Christmas Skin to the game. I had no pixel art experience beyond the experience I've earned by making the game art, but it seemed like all that experience had been settle inside me, and because of this I felt less difficult to do the Christmas Skin, which became prettier and better than the default skin."
         ]
       },
@@ -391,10 +391,10 @@ export const myProjectsData = {
       },
       {
         id: 12,
-        name: 'Diep.io Prototype',
+        name: 'Diep.io',
         description: [
           "This project was made during a selection process too, where I had to do a copy of the Diep.io game using multiplayer system, the deadline was one week. Due my job and a freelance I had to do, I had such a short time to make the game, but luckily I finished the game on the week deadline.",
-          "Just like the previous project, I didn't received any feedbacks. I don't know what happens during these selection processes, seems like my charm is bigger than I thought and I end by letting everyone openmouthed."
+          "Just like the previous project, I didn't received any feedbacks. I don't know what happens during these selection processes, seems like my charm is bigger than I thought and I end by letting everyone speechless."
         ]
       }
     ]
