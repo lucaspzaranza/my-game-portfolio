@@ -204,6 +204,7 @@ export const myProjectsData = {
         name: 'Catch Game',
         description: [
           "Esse foi outro jogo que eu fiz seguindo tutoriais para aprender a utilizar a Unity. Também sem grandes dificuldades, mas mais uma vez precisei implementar interface de menus de rankings e captação de dados dos jogadores, o que deu um pouco mais de trabalho. Por serem eventos que usavam telas touch, precisei encontrar uma forma de abrir o teclado virtual do windows para utilização das telas sem teclado físico.",
+          "Sem repositório também, desculpem-me."
         ]
       },
       {
@@ -258,24 +259,27 @@ export const myProjectsData = {
         id: 10,
         name: 'Doom of The Penosas',
         description: [
-          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
-          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+          "Em 2020 eu tirei do papel uma ideia que mantive guardada desde 2016 mas nunca tinha arriscado fazer. É um projeto shoot'em up, com escopo grande, com mecânica multiplayer, fases, algo que levaria anos pra fazer, e nunca tentei ao menos criar um protótipo. Mas eu arrisquei iniciar o projeto e ver até onde eu iria chegar.",
+          "Acontece que eu estava insatisfeito no meu trabalho na escola, queria voltar a trabalhar com TI, e se eu usasse meu tempo livre pra fazer o jogo ao invés de estudar outras ferramentas mais usadas no mercado de TI, tais como frameworks frontend, banco de dados, backend, etc, eu nunca iria arrumar um emprego, já que também as oportunidades pra entrar no ramo dos jogos são mais escassas, e eu queria sair daquela escola o quanto antes. Acabei pausando o desenvolvimento do protótipo por alguns meses pra me dedicar aos estudos até que conseguisse alguma vaga na área.",
+          "Em 2021 eu consegui voltar pra área de TI, então retornei ao desenvolvimento do protótipo. Mas o tamanho do escopo do projeto me fez questionar várias vezes se eu deveria estar fazendo aquilo ao invés de estudar e melhorar minhas habilidades pros empregos que eu estava conseguindo e ganhar mais dinheiro. Acabei parando novamente pra focar nessa área.",
+          "O maior desafio do desenvolvimento desse protótipo tem sido sem dúvidas implementar o sistema multiplayer, coisa que eu nunca tinha feito na minha vida. Escolhi o framework Mirror devido a sua simplicidade, mas ainda assim tive dificuldades devido minha inexperiência. Estou conseguindo obter resultado e devo isso aos estudos de desenvolvimento web, que me fizeram entender mais da teoria de Cliente e Servidor, requisições, etc. Se por um lado eu ter parado de desenvolver jogos me atrasou no desenvolvimento dos meus projetos, por outro me tornou um programador melhor e capaz de encarar projetos mais avançados como esse.",
+          "Não tenho previsão de retornar ao desenvolvimento desse jogo, mas ainda quero voltar e lançar ao menos uma demo jogável, quem sabe também adicionar algum pixel art, já que os sprites estão todos com imagens temporárias que eu peguei de outros games. Não irei parar de desenvolver jogos, é a minha maior paixão e ambição profissional, mas preciso focar no que está me dando dinheiro atualmente, que tem sido desenvolvimento de sistemas web, e vejo que ali eu também encontro coisas que me interessam, tais como React, e que eu posso fazer carreira ali caso não venha a dar certo no ramo dos jogos."
         ]
       },
       {
         id: 11,
         name: 'Jogo da Cobrinha',
         description: [
-          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
-          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+          "Esse foi um protótipo desenvolvido num processo seletivo em que eu tinha que mostrar o quanto eu conseguia fazer de um jogo da cobrinha em 1h. Evidente que não deu tempo de fazer tudo, mas eles me deram até o final do dia pra mostrar o jogo completo, e assim o fiz.",
+          "Nunca me deram uma resposta, nem mesmo negativa, e isso já faz alguns meses. Acho que ficaram tão boquiabertos e maravilhados com o projeto que morreram todos de tanta emoção."
         ]
       },
       {
         id: 12,
         name: 'Diep.io (Protótipo)',
         description: [
-          "Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.", 
-          "Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!."
+          "Esse também foi um protótipo desenvolvido num processo seletivo em que eu tinha que fazer uma cópia do Diep.io utilizando sistema multiplayer, o prazo era de uma semana. Por conta do meu trabalho e de um freelance que eu tive que fazer, acabei tendo menos tempo que o que eu gostaria de ter tido pra fazer o jogo, mas ainda assim consegui terminá-lo no prazo estipulado.",
+          "Assim como no jogo anterior, nesse projeto eu também nunca obetive resposta alguma. Não sei o que acontece nessas processos seletivos, pelo visto meu charme é maior do que eu imaginava e eu acabo deixando todos sem palavras."
         ]
       }
     ]
@@ -288,7 +292,7 @@ export const myProjectsData = {
         id: 1,
         name: 'Super Bomberman 4 Prototype',
         description: [
-          "When I started to study Unity I thought it'd be better to copy a game I used to know better to focus in programming and I would not have to deal with game design or art stuff issues, since I'd be able to find them on the Internet. I chose then the Super Bomberman 4, a Super Nintendo classic that I like to play until nowadays.",
+          "When I started to study Unity I thought it'd be better to copy a game I used to know better, focus in programming and I would not have to deal with game design or art stuff issues, since I'd be able to find them on the Internet. I chose then the Super Bomberman 4, a Super Nintendo classic I like to play until nowadays.",
           "It was with this project that I had my first Unity and computer programming lessons, where I put into practice outside the college environment the concepts of Object Orientation, Inheritance, Generic Types, and other C# features.", 
           "Due the lack of experience, this was a project which it took me a lot of effort and time to make at least the basic player mechanics. I didn't know several Unity API functionalities, and so I ended by trying to reivent the wheel, for example, trying to create a way to return the distance from the bomb to the hit wall and get the explosion extension with it, without noticing Unity has a feature called Raycasting which calculates it to me.",
           "Today I look to the code and realize I should've done things in an easier and better way, I see either choosing a game with so many mechanics like Bomberman wasn't an accurate choice, I should have chosen something like Super Mario, but at that time I had no coding and planning experience enough to evaluate these questions. That was a kind of shock for me... but extremely funny. I loved to do the Bomberman."
@@ -307,7 +311,7 @@ export const myProjectsData = {
         name: 'Flappy Bird',    
         description: [
           "The Flappy Bird game were making success by a few time ago, and I was making the game following a YouTube tutorial which was teaching how to do the game in Unity. The guys from my job thought that use this game at the events would be a good deal.",
-          "We made then some adaptations on the game difficulty, since it is extremely hard (and annoying!), we've added some features to client contact info captation, and we were ready to go. As the game were made following a tutorial, I had no great dificulties on the game development. The hard part was to create a ranking system to make people contest between them and manage the prize distribution.",
+          "We made then some adaptations on the game difficulty, since it is extremely hard (and annoying!), we've added some features to client contact info captation, and we were ready to go. Since the game was made following up a tutorial, I had no great difficulties on the game development. The hard part was to create a ranking system to make people contest between them and manage the prize distribution.",
           "Sadly I lost the project repository and Unity project data too."
         ]
       },
@@ -316,13 +320,14 @@ export const myProjectsData = {
         name: 'Catch Game',
         description: [
           "This was one more game I made following up Unity YouTube tutorials to learn how to use the game engine. I had no great difficulties either, but one more time I needed to implement menu interface and ranking system to client data retrieving, and that gave me a little more work to do. As the events used touch screens, I needed to find a way to open the Windows Virtual Keyboard to use the screens without use a physical keyboard.",
+          "No repository too, I'm sorry."
         ]
       },
       {
         id: 5,
         name: 'Slot Machine',
         description: [
-          "At the company I worked it had a slot machine game which was used to prize raffling. It was programmed to the player always earn a prize like keychains, cups, make-up kits, tickets, and so on. But the company wanted to used a version of the game which were easier to customize the game graphics acoording to the event, and which was a Unity solution game. I had to create my own slot machine version.",
+          "In the company I worked we had a slot machine game which was used to prize raffling. It was programmed to the player always earn a prize like keychains, cups, make-up kits, tickets, and so on. But the company wanted to used a version of the game which were easier to customize the game graphics acoording to the event, and which was a Unity solution game. I had to create my own slot machine version.",
           "This was one of the projects I appreciated the most the development, it took me two or three months to make. At that time I was more experienced with Unity, so I felt more confident to make it from scratch, and so I did. That was very interesting to think on the logic to move the slots from the machine and implement it. Make the handler movement mechanic was a little bit hard to do too. Later I had to implement the graphic customization, prize amount control, and UI client data retrieving. I liked the result a lot."
         ]
       },
@@ -340,7 +345,7 @@ export const myProjectsData = {
         description: [
           "By the fact the Touch Midia projects were used on touch screens, frequently the windows virtual keyboard was necessary to be called inside the projects. But I felt annoyed with the way of using this feature in the games. Some scripts was causing resolution and windowing screen issues, and I've feared the solution will stop working at some point in the future, and I worried because it didn't work on Android systems. I decided to create my own simplified virtual keyboard and export it as a Unity package to reuse in any project I'd wish.",
           "At that time I wasn't working at Touch Midia anymore, but I still used those games to customize on private events. I wanted to make the virtual keyboard too to test the utilization of some Unity concepts like event triggering.",
-          "The project was a success and I used it until today on these touch games."          
+          "The project was a success and I use it until today on these touch games."          
         ]
       },
       {
@@ -359,34 +364,37 @@ export const myProjectsData = {
         id: 9,
         name: 'Math Factory',
         description: [
-         "After the failure of Penosas Strike I stop daydreaming and realized I had to get a job to pay the bills. I left the games for a while and went to work on a school as a disabled child caregiver. I helped him to do the lessons, pay attention os classes, answer his questions, take him to bathroom... I was like the child's father during scholar period. It had no business with me, but that was what I've achieved to pay the bills and help in the house finances." ,
+         "After the failure of Penosas Strike I stopped daydreaming and realized I had to get a job to pay the bills. I left the games for a while and went to work on a school as a disabled child caregiver. I helped him to do the lessons, pay attention os classes, answer his questions, take him to bathroom... I was like the child's father during scholar period. It had no business with me, but that was what I've achieved to pay the bills and help in the house finances." ,
          "The child had many difficulties with math, which is my favorite subject, and I always appreciated to teach people the subjects I'm good at. But I noticed teaching him on the usual way would not make any effect on him, and I noticed he used to like a lot of computer games. So I decided to join all these circunstances into one idea and I created a gamified math teaching solution to teach him how to perform the four math fundamental operations, like addition, subtraction, multiplication and division.",
-         "I spent the entire July month, which was when I was in my vacations, to do the game prototype. I had several issues to do the slot management when  the player inputs a new number, and I started to think maybe Unity wasn't a the best tool to develop that kind of mechanic which envolves more UI elements than physics elements, maybe a JavaScript framework like React might fit better. I saw either by the year elapsed time that, maybe my solution wouldn't be that useful to the child, since he was going to learn more advanced subjects than addition and subtraction, despite his doubts still be at that basic level though. So I decided leave the game as it was with addition and subtraction only.",
-         "By the few times I used the game with him I noticed it was useful, but I can't say if it helped him to understand how these basic operations work. Who knows if I had detailed more, put more colors, animations and other visual effects he should understood more. Anyway, I liked the result and the big idea of the game concept. Teach math in a gamified way is something which interests me a lot, I think I can do it well, and I have in my mind in any moment of my life I should work with it."
+         "I spent the entire July month, which was when I was in my vacations, doing the game prototype. I had several problems to do the slot management when  the player inputs a new number, and I started to think maybe Unity wasn't the best suitable tool to develop that kind of mechanic which envolves more UI elements than physics elements, maybe a JavaScript framework like React would fit better. I saw either by the year elapsed time that, maybe my solution wouldn't be that useful to the child, since he was going to learn more advanced subjects than addition and subtraction, despite his doubts still be at that basic level though. So I decided leave the game as it was with addition and subtraction only.",
+         "By the few times I used the game with him I noticed it came handy, but I can't say if it helped him to understand how these basic operations work. Who knows if I had detailed more, put more colors, animations and other visual effects he should understood more. Anyway, I liked the result and the big idea of the game concept. Teach math in a gamified way is something which interests me a lot, I think I can do it well, and I have in my mind in any moment of my life I should work with it."
         ]
       },
       {
         id: 10,
         name: 'Doom of The Penosas',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+          "In 2020 I put it out of the paper a game concept I was keeping since 2016 which I never had tried to do. It's a shoot'em up project, large scope, with multiplayer system, stages, something which will take me years doing all by myself, and I never tried at least to do a prototype. But I resolved to take the risk and start the project and see until where I could go.",
+          "But it turns out I was unhappy at my school job, I wanted to go back to IT, and if I used my free time to develop a game instead study web development, I'd never find a job, since the game dev opportunities always seemed so rare to me, and I wanted to quit my job as soon as possible. I left the game development behind for a couple of months to focus on studying until I find a job on IT.",
+          "In 2021 I got a job on IT, so I returned the prototype development. But due the large project scope, I wondered a lot of times if I shouldn't focus on what was giving me money, leveling up my skills, rather than develop a project with no deadlines to achieve which I was doing only for fun purposes. I decided then stop one more time the development and focus on web dev.",
+          "The biggest struggle this prototype has brought to me was to do the multiplayer system, something I've never done before. I chose the Mirror framework due it's simplicity, but I was still struggling with that due my lack of experience. I'm doing quite ok, and I owe that to my web dev learning, which gave me background knowledge to Client and Server dynamic and requests as well. If on the one hand studying these delayed my game roadmap, on the other hand I became a better programmer and capable of face and develop more advanced projects like this.",
+          "I have no intention to go back to the game dev of this project soon, but I still want to return and launch at least a playable demo, who knows draw some pixel art to it, since the game sprites are entirely fulfilled with temporary sprites from other classic games. I will not give up making games, it's my biggest passion and professional ambition, but I need to focus on what is paying me more money currently, and that's the system development, a career who has some good areas too, like frontend dev with React, for example, and where I can trace a good and steady career growth just in case the game dev never becomes a reality in my life."
         ]
       },
       {
         id: 11,
         name: 'Snake Game',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+          "This was a project made to a corporate selection process where I had to show how much I could make from a snake game in one hour. Of course I couldn't finish it, but they gave me until the end of the day to send them the project complete, and so I did.",
+          "They never sent me any feedback, not even to say I was not approved, and it's been a few months since that. I guess they were so astonished and wondered with the project that they died of so much emotion."
         ]
       },
       {
         id: 12,
         name: 'Diep.io Prototype',
         description: [
-          "Cut the cheese hard cheese cheese and biscuits. Goat who moved my cheese cottage cheese macaroni cheese fromage frais everyone loves fromage chalk and cheese. Emmental cauliflower cheese fromage manchego roquefort swiss cream cheese cream cheese. St. agur blue cheese bocconcini everyone loves port-salut emmental cheesy feet when the cheese comes out everybody's happy queso. Caerphilly cottage cheese mozzarella.",
-          "Bavarian bergkase emmental cheese strings. Cow roquefort cheese and wine croque monsieur cottage cheese cheese triangles cheddar parmesan. Fondue stilton melted cheese croque monsieur cheesecake the big cheese camembert de normandie cheddar. Monterey jack fondue cheese and biscuits macaroni cheese cheese and biscuits paneer lancashire."
+          "This project was made during a selection process too, where I had to do a copy of the Diep.io game using multiplayer system, the deadline was one week. Due my job and a freelance I had to do, I had such a short time to make the game, but luckily I finished the game on the week deadline.",
+          "Just like the previous project, I didn't received any feedbacks. I don't know what happens during these selection processes, seems like my charm is bigger than I thought and I end by letting everyone openmouthed."
         ]
       }
     ]
