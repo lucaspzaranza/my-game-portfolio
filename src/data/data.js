@@ -359,7 +359,10 @@ export const myProjectsData = {
         id: 9,
         name: 'Math Factory',
         description: [
-          
+         "After the failure of Penosas Strike I stop daydreaming and realized I had to get a job to pay the bills. I left the games for a while and went to work on a school as a disabled child caregiver. I helped him to do the lessons, pay attention os classes, answer his questions, take him to bathroom... I was like the child's father during scholar period. It had no business with me, but that was what I've achieved to pay the bills and help in the house finances." ,
+         "The child had many difficulties with math, which is my favorite subject, and I always appreciated to teach people the subjects I'm good at. But I noticed teaching him on the usual way would not make any effect on him, and I noticed he used to like a lot of computer games. So I decided to join all these circunstances into one idea and I created a gamified math teaching solution to teach him how to perform the four math fundamental operations, like addition, subtraction, multiplication and division.",
+         "I spent the entire July month, which was when I was in my vacations, to do the game prototype. I had several issues to do the slot management when  the player inputs a new number, and I started to think maybe Unity wasn't a the best tool to develop that kind of mechanic which envolves more UI elements than physics elements, maybe a JavaScript framework like React might fit better. I saw either by the year elapsed time that, maybe my solution wouldn't be that useful to the child, since he was going to learn more advanced subjects than addition and subtraction, despite his doubts still be at that basic level though. So I decided leave the game as it was with addition and subtraction only.",
+         "By the few times I used the game with him I noticed it was useful, but I can't say if it helped him to understand how these basic operations work. Who knows if I had detailed more, put more colors, animations and other visual effects he should understood more. Anyway, I liked the result and the big idea of the game concept. Teach math in a gamified way is something which interests me a lot, I think I can do it well, and I have in my mind in any moment of my life I should work with it."
         ]
       },
       {
