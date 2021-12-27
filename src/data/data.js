@@ -154,7 +154,7 @@ export const yearMade = {
 }
 
 export const myProjectsYears = [
-  2014,
+  2013,
   2014,
   2014,
   2015,
@@ -179,8 +179,9 @@ export const myProjectsData = {
         description: [
           "Quando eu comecei a estudar Unity eu achei melhor tentar copiar um jogo que eu já conhecesse bem pra focar apenas na programação e não ter que lidar com detalhes de game design ou de criação de gráficos, já que eu poderia apenas pegá-los na internet. Escolhi então o Super Bomberman 4, um clássico do Super Nintendo que eu jogo até hoje.",
           "Foi com esse projeto que eu tive meus primeiros aprendizados na engine da Unity e em programação, onde eu coloquei em prática pela primeira vez fora da faculdade os conceitos de Orientação a Objeto, Herança, Tipos Genéricos, dentre outras capacidades da linguagem C#.",
-          "Pela falta de experiência, esse foi um projeto em que eu levei meses pra conseguir reproduzir pelo menos a mecânica básica do jogador. Eu desconhecia muitas funcionalidades que a Unity já trazia na sua API e acabei tentando reinventar a roda, por exemplo, tentando criar uma forma de detectar a distância da bomba até a parede e medir a extensão das explosões sem saber que ela possuía uma funcionalidade chamada Raycasting em que calculava essa distância pra mim.",
-          "Hoje eu olho para o código e percebo também que poderia ter feito as coisas de uma maneira muito mais simples e eficaz, vejo também que a escolha de um game com tantas mecânicas como Super Bomberman 4 não foi uma escolha acertada, deveria ter escolhido algo como Super Mario, mas na época eu não tinha experiência o suficiente nem de programação nem de planejamento pra avaliar essas questões. Foi um tipo de choque, mas extremamente divertido. Eu amei ter feito esse Bomberman."
+          "Pela falta de experiência, esse foi um projeto em que eu levei meses pra conseguir reproduzir pelo menos a mecânica básica do jogador, e ainda assim o jogo ficou cheio de bugs. Eu desconhecia muitas funcionalidades que a Unity já trazia na sua API e acabei tentando reinventar a roda, por exemplo, tentando criar uma forma de detectar a distância da bomba até a parede e medir a extensão das explosões sem saber que ela possuía uma funcionalidade chamada Raycasting em que calculava essa distância pra mim.",
+          "Hoje eu olho para o código e percebo também que poderia ter feito as coisas de uma maneira muito mais simples e eficaz, vejo também que a escolha de um game com tantas mecânicas como Super Bomberman 4 não foi uma escolha acertada, deveria ter escolhido algo como Super Mario, mas na época eu não tinha experiência o suficiente nem de programação nem de planejamento pra avaliar essas questões. Foi um tipo de choque, mas extremamente divertido. Eu amei ter feito esse Bomberman.",
+          "Por conta dos tantos bugs do projeto não consegui hospedá-lo."
         ]
       },
       {
@@ -197,6 +198,7 @@ export const myProjectsData = {
         description: [
           "Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o Flappy Bird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
           "Fizemos então algumas adaptações na dificuldade do jogo, já que ele é extremamente difícil (e irritante) e adicionamos algumas funcionalidades pra captação dos dados dos clientes. Como eu fiz o game seguindo vídeo tutoriais não tive dificuldades de implementar a mecânica. O que foi mais complicado foi ter criado um sistema de Ranking para gerar competição entre os participantes do evento e distribuição de prêmios.",
+          "Infelizmente eu perdi todos os arquivos do projeto e não pude criar um repositório."
         ]
       },
       {
@@ -294,8 +296,9 @@ export const myProjectsData = {
         description: [
           "When I started to study Unity I thought it'd be better to copy a game I used to know better, focus in programming and I would not have to deal with game design or art stuff issues, since I'd be able to find them on the Internet. I chose then the Super Bomberman 4, a Super Nintendo classic I like to play until nowadays.",
           "It was with this project that I had my first Unity and computer programming lessons, where I put into practice outside the college environment the concepts of Object Orientation, Inheritance, Generic Types, and other C# features.", 
-          "Due the lack of experience, this was a project which it took me a lot of effort and time to make at least the basic player mechanics. I didn't know several Unity API functionalities, and so I ended by trying to reivent the wheel, for example, trying to create a way to return the distance from the bomb to the hit wall and get the explosion extension with it, without noticing Unity has a feature called Raycasting which calculates it to me.",
-          "Today I look to the code and realize I should've done things in an easier and better way, I see either choosing a game with so many mechanics like Bomberman wasn't an accurate choice, I should have chosen something like Super Mario, but at that time I had no coding and planning experience enough to evaluate these questions. That was a kind of shock for me... but extremely funny. I loved to do the Bomberman."
+          "Due the lack of experience, this was a project which it took me a lot of effort and time to make at least the basic player mechanics, and it still got very messy and with several bugs. I didn't know several Unity API functionalities, and so I ended by trying to reivent the wheel, for example, trying to create a way to return the distance from the bomb to the hit wall and get the explosion extension with it, without noticing Unity has a feature called Raycasting which calculates it to me.",
+          "Today I look to the code and realize I should've done things in an easier and better way, I see either choosing a game with so many mechanics like Bomberman wasn't an accurate choice, I should have chosen something like Super Mario, but at that time I had no coding and planning experience enough to evaluate these questions. That was a kind of shock for me... but extremely funny. I loved to do the Bomberman.",
+          "Because of the many bugs the project has I couldn't host it in any place."
         ]
       },
       {
@@ -404,45 +407,45 @@ export const myProjectsData = {
 export const myProjectsLinks = [
   {
     id: 1,
-    repo: '',
+    repo: 'https://github.com/lucaspzaranza/bomberman4-prototype',
     demo: '',
-    youtube: ''
+    youtube: 'https://youtu.be/8B40uRATfOY'
   },
   {
     id: 2,
     repo: '',
     demo: '',
-    youtube: ''
+    youtube: 'https://youtu.be/FGZL7OehB9A'
   },
   {
     id: 3,
     repo: '',
     demo: '',
-    youtube: ''
+    youtube: 'https://youtu.be/sZzrtTpx0qo'
   },
   {
     id: 4,
     repo: '',
     demo: '',
-    youtube: ''
+    youtube: 'https://youtu.be/3AfEJQc_e-0'
   },
   {
     id: 5,
     repo: 'https://github.com/lucaspzaranza/slot-machine',
     demo: 'https://lucaspzaranza.github.io/slot-machine-page/',
-    youtube: ''
+    youtube: 'https://youtu.be/Di7geb4OCGo'
   },
   {
     id: 6,
     repo: 'https://github.com/lucaspzaranza/jogo-memoria',
     demo: 'https://lucaspzaranza.github.io/jogo-memoria-page/',
-    youtube: ''
+    youtube: 'https://youtu.be/-EBzBFItrHs'
   },
   {
     id: 7,
-    repo: '',
-    demo: '',
-    youtube: ''
+    repo: 'https://github.com/lucaspzaranza/virtual-keyboard-unity-package',
+    demo: 'https://lucaspzaranza.github.io/unity-virtual-keyboard-page/',
+    youtube: 'https://youtu.be/2O_RLLSMs_c'
   },
   {
     id: 8,
@@ -452,9 +455,9 @@ export const myProjectsLinks = [
   },
   {
     id: 9,
-    repo: '',
-    demo: '',
-    youtube: ''
+    repo: 'https://github.com/lucaspzaranza/math-factory',
+    demo: 'https://lucaspzaranza.github.io/math-factory-page/',
+    youtube: 'https://youtu.be/R5HU1G4pQrA'
   },
   {
     id: 10,
