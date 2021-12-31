@@ -1,10 +1,12 @@
 :root {
   --pixel-btn: url(data/images/pixel-btn.png);
+  --gamer-bg: url(data/images/gamer-bg.png);
 }
 
 .App {
   text-align: center;
   background-color: #e2e2e2;
+  /* background-image: var(--gamer-bg); */
   min-height: 100vh;
   color: black;
   display: flex;

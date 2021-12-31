@@ -30,10 +30,6 @@ export const mainMenu = {
         desc: 'Meus Projetos'
       },
       {
-        router: 'challenges',
-        desc: 'Desafios vencidos'
-      },
-      {
         router: 'contact-info',
         desc: 'Informações para contato'
       }
@@ -50,10 +46,6 @@ export const mainMenu = {
       {
         router:'projects',
         desc: 'My Projects'
-      },
-      {
-        router: 'challenges',
-        desc: 'Overcame challenges'
       },
       {
         router: 'contact-info',
@@ -265,7 +257,8 @@ export const myProjectsData = {
           "Acontece que eu estava insatisfeito no meu trabalho na escola, queria voltar a trabalhar com TI, e se eu usasse meu tempo livre pra fazer o jogo ao invés de estudar outras ferramentas mais usadas no mercado de TI, tais como frameworks frontend, banco de dados, backend, etc, eu nunca iria arrumar um emprego, já que também as oportunidades pra entrar no ramo dos jogos são mais escassas, e eu queria sair daquela escola o quanto antes. Acabei pausando o desenvolvimento do protótipo por alguns meses pra me dedicar aos estudos até que conseguisse alguma vaga na área.",
           "Em 2021 eu consegui voltar pra área de TI, então retornei ao desenvolvimento do protótipo. Mas o tamanho do escopo do projeto me fez questionar várias vezes se eu deveria estar fazendo aquilo ao invés de estudar e melhorar minhas habilidades pros empregos que eu estava conseguindo e ganhar mais dinheiro. Acabei parando novamente pra focar nessa área.",
           "O maior desafio do desenvolvimento desse protótipo tem sido sem dúvidas implementar o sistema multiplayer, coisa que eu nunca tinha feito na minha vida. Escolhi o framework Mirror devido a sua simplicidade, mas ainda assim tive dificuldades devido minha inexperiência. Estou conseguindo obter resultado e devo isso aos estudos de desenvolvimento web, que me fizeram entender mais da teoria de Cliente e Servidor, requisições, etc. Se por um lado eu ter parado de desenvolver jogos me atrasou no desenvolvimento dos meus projetos, por outro me tornou um programador melhor e capaz de encarar projetos mais avançados como esse.",
-          "Não tenho previsão de retornar ao desenvolvimento desse jogo, mas ainda quero voltar e lançar ao menos uma demo jogável, quem sabe também adicionar algum pixel art, já que os sprites estão todos com imagens temporárias que eu peguei de outros games. Não irei parar de desenvolver jogos, é a minha maior paixão e ambição profissional, mas preciso focar no que está me dando dinheiro atualmente, que tem sido desenvolvimento de sistemas web, e vejo que ali eu também encontro coisas que me interessam, tais como React, e que eu posso fazer carreira ali caso não venha a dar certo no ramo dos jogos."
+          "Não tenho previsão de retornar ao desenvolvimento desse jogo, mas ainda quero voltar e lançar ao menos uma demo jogável, quem sabe também adicionar algum pixel art, já que os sprites estão todos com imagens temporárias que eu peguei de outros games. Não irei parar de desenvolver jogos, é a minha maior paixão e ambição profissional, mas preciso focar no que está me dando dinheiro atualmente, que tem sido desenvolvimento de sistemas web, e vejo que ali eu também encontro coisas que me interessam, tais como React, e que eu posso fazer carreira ali caso não venha a dar certo no ramo dos jogos.",
+          "Para testar use um joystick de XBox, ou no teclado use WASD como direcionais, barra de espaço para pular e usar o paraquedas, CTRL para tiro primário, Shift para tiro secundário, e Q ou E para mudar de ítem especial."
         ]
       },
       {
@@ -381,7 +374,8 @@ export const myProjectsData = {
           "But it turns out I was unhappy at my school job, I wanted to go back to IT, and if I used my free time to develop a game instead study web development, I'd never find a job, since the game dev opportunities always seemed so rare to me, and I wanted to quit my job as soon as possible. I left the game development behind for a couple of months to focus on studying until I find a job on IT.",
           "In 2021 I got a job on IT, so I returned the prototype development. But due the large project scope, I wondered a lot of times if I shouldn't focus on what was giving me money, leveling up my skills, rather than develop a project with no deadlines to achieve which I was doing only for fun purposes. I decided then stop one more time the development and focus on web dev.",
           "The biggest struggle this prototype has brought to me was to do the multiplayer system, something I've never done before. I chose the Mirror framework due it's simplicity, but I was still struggling with that due my lack of experience. I'm doing quite ok, and I owe that to my web dev learning, which gave me background knowledge to Client and Server dynamic and requests as well. If on the one hand studying these delayed my game roadmap, on the other hand I became a better programmer and capable of face and develop more advanced projects like this.",
-          "I have no intention to go back to the game dev of this project soon, but I still want to return and launch at least a playable demo, who knows draw some pixel art to it, since the game sprites are entirely fulfilled with temporary sprites from other classic games. I will not give up making games, it's my biggest passion and professional ambition, but I need to focus on what is paying me more money currently, and that's the system development, a career who has some good areas too, like frontend dev with React, for example, and where I can trace a good and steady career growth just in case the game dev never becomes a reality in my life."
+          "I have no intention to go back to the game dev of this project soon, but I still want to return and launch at least a playable demo, who knows draw some pixel art to it, since the game sprites are entirely fulfilled with temporary sprites from other classic games. I will not give up making games, it's my biggest passion and professional ambition, but I need to focus on what is paying me more money currently, and that's the system development, a career who has some good areas too, like frontend dev with React, for example, and where I can trace a good and steady career growth just in case the game dev never becomes a reality in my life.",
+          "To test the demo use a XBox Joystick, or on the keyboard use the WASD keys to move and aim, spacebar to jump and use the parachute, CTRL to primary shot, Shift to secondary shot, and Q or E to change the special item."
         ]
       },
       {
@@ -461,21 +455,21 @@ export const myProjectsLinks = [
   },
   {
     id: 10,
-    repo: '',
-    demo: '',
-    youtube: ''
+    repo: 'https://github.com/lucaspzaranza/doom-of-the-penosas',
+    demo: 'https://lucaspzaranza.github.io/doom-of-the-penosas-page/',
+    youtube: 'https://youtu.be/AWoCwXdrGpw'
   },
   {
     id: 11,
     repo: 'https://github.com/lucaspzaranza/snake-project',
     demo: 'https://lucaspzaranza.github.io/snake-project-page/',
-    youtube: ''
+    youtube: 'https://youtu.be/IKWWVx8-zis'
   },
   {
     id: 12,
     repo: 'https://github.com/lucaspzaranza/diep.io-challenge',
     demo: '',
-    youtube: ''
+    youtube: 'https://youtu.be/U4VpCUv47qw'
   }
 ]  
 
@@ -494,5 +488,16 @@ export const projectLinksButtons = {
     github: 'My repo',
     demo: 'Play me!',
     youtube: 'Watch me!'
+  }
+}
+
+export const contactInfo = {
+  pt: {
+    title: 'Informações para contato',
+    subtitle: 'Você me encontra através dos seguintes links:'
+  },
+  en: {
+    title: 'Contact Info',
+    subtitle: 'You can contact me by the following links:'
   }
 }
