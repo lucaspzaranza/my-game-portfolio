@@ -36,7 +36,7 @@ export const MyProjects = () => {
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard,
         penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo
     ]
-    
+
     return (
         <div className="about-menu-container nes-container with-title is-centered">
             <h5 className="menu-container-title title">{title}</h5>
