@@ -21,6 +21,7 @@ import mathFactory from '../../data/images/game-project-images/math-factory.png'
 import doomOfThePenosas from '../../data/images/game-project-images/doom-of-the-penosas.png';
 import snake from '../../data/images/game-project-images/snake.png';
 import diepIo from '../../data/images/game-project-images/diep.io.png';
+import { WiredCard } from 'wired-elements-react';
 
 export const ProjectDialogDetails = ({projectIndex, title, description, year, links}) => {
     const {pt} = languages;
@@ -36,18 +37,32 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
 
     return (
         <section>
-            <dialog className="nes-dialog is-rounded" id={"dialog-rounded-" + projectIndex}>
+            <dialog className="nes-dialog is-rounded black-bg" id={"dialog-rounded-" + projectIndex}>
                 <form method="dialog">
-                    <h2 className="title">{title}</h2>
+                    <WiredCard elevation={5}>
+                        <span className="title"><strong>{title}</strong></span>
+                    </WiredCard>
+                    <br/>
                     <img alt="projectImg" className="project-image" 
                         src={images[projectIndex]} style={{'marginBottom': '30px'}}/>
 
-                    <p className="project-description"><strong>
-                        {yearTxt}: {year}
-                    </strong></p>
+                    <p className="project-description">
+                        <WiredCard elevation={5}> 
+                                <strong>
+                                    {yearTxt}: {year}
+                                </strong>
+                        </WiredCard>
+                    </p>
+
                     {
                         description.map(paragraph => (
-                            <p className="project-description"><strong>{paragraph}</strong></p>
+                            <p className="project-description">
+                                <WiredCard elevation={5}> 
+                                    <strong>
+                                        {paragraph}
+                                    </strong>
+                                </WiredCard>
+                            </p>
                         ))
                     }
 

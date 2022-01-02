@@ -1,5 +1,13 @@
 .project-description {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
   text-align: justify;
+  padding: 5px;
+}
+
+.title {
+  font-size: 2rem;
 }
 
 .project-links-container {
@@ -38,6 +46,11 @@
 }
 
 .project-image {
+  margin-top: 20px;
   max-width: 1100px;
   max-height: 500px;
 }
+
+/* .black-bg {
+  background-color: black;
+} */

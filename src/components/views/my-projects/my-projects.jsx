@@ -21,6 +21,7 @@ import virtualKeyboard from '../../../data/images/game-project-images/cartridges
 import mathFactory from '../../../data/images/game-project-images/cartridges/math-factory-cartridge.png';
 import catchGame from '../../../data/images/game-project-images/cartridges/catch-game-cartridge.png';
 import ProjectDialogDetails from '../../project-dialog-details/project-dialog-details';
+import { CarouselArrow } from '../../carousel-arrow/carousel-arrow';
 
 export const MyProjects = () => {
     const {pt} = languages;
@@ -37,12 +38,18 @@ export const MyProjects = () => {
     ]
     
     return (
-        <div className="menu-container nes-container with-title is-centered">
+        <div className="about-menu-container nes-container with-title is-centered">
             <h5 className="menu-container-title title">{title}</h5>
-            <h4 style={{'marginBottom': '30px'}}>{select}</h4>
+            <div className='project-subtitle'>
+                <h4 className='text-container'><strong>{select}</strong></h4>
+            </div>
             
-            <Carousel interval={3000} autoPlay={false}>
+            <Carousel interval={3000} autoPlay={false}
+                renderArrowLeft={({handlePrev}) => <CarouselArrow isLeft={true} handleArrow={handlePrev}/>} 
+                renderArrowRight={({handleNext}) => <CarouselArrow isLeft={false} handleArrow={handleNext}/>} 
+            >
             {
+               
                 projects.map((project, index) => (
                     <div key={index}>
                         <ProjectCartridge name={project.name} projectIndex={index} image={images[index]}/>

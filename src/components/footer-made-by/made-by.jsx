@@ -11,8 +11,8 @@ export const MadeBy = () => {
 
     return (
         <footer>
-            <span>
-                <h4>{createdBy}</h4>
+            <span >
+                <h4 >{createdBy}</h4>
             </span>
         </footer>
     );

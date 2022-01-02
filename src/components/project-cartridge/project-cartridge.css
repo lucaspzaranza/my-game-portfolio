@@ -9,6 +9,12 @@
   margin-bottom: 50px;
 }
 
+.cartridge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-container:hover {
   cursor: pointer;
 }

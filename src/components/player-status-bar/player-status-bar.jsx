@@ -13,7 +13,7 @@ export const PlayerStatusBar = (prop) => {
 
     return (
         <div className="player-status-bar">
-            <label htmlFor="prog-bar"><strong>{prop.name}:</strong></label>
+            <label className='text-container-label' htmlFor="prog-bar"><strong>{prop.name}:</strong></label>
 
             <div className="progress-bar-background">
                 <div id="prog-bar" className={colorBar} style={{'--progress-fill':fillPercent + 'px'}}>

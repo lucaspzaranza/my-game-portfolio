@@ -1,29 +1,57 @@
 .profile-pic {
-  width: 50%;
+  width: 15rem;
 }
 
 .hero-status {
   display: flex;
+  flex-direction: row;
   margin-bottom: 20px;
 }
 
+.hero-status-bar-container {
+  width: 34em;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .hero-description {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-general-info {
+  display: block;
+  width: 50%;
 }
 
 p:last-child {
   text-align: center;
 }
 
+.about-menu-container li {
+  display: flex;
+  width: 75%;
+  padding: 0px 5px !important;
+}
+
 .player-info {
   display: flex;
   flex-direction: column;
-  text-align: center;
   margin-top: 20px;
   font-weight: bolder;
+}
+
+.player-info p {
+  text-align: start;
 }
 
 .description-paragraph {
   font-size: 0.83em;
   font-weight: bold;
+  padding: 5px;
+  width: fit-content;
+  text-align: justify;
+  margin-bottom: 20px !important;
 }

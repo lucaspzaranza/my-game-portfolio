@@ -3,3 +3,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+.project-subtitle {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+}

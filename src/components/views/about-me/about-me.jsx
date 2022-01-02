@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
+import { WiredImage } from "wired-elements-react";
 import {LanguageContext} from '../../../contexts/LanguageContext';
 import { aboutMe, languages, playerStatus, playerInfo } from '../../../data/data';
 import PlayerStatusBar from '../../player-status-bar/player-status-bar';
 
-import me from '../../../data/images/robot-frame-with-me-2.png';
+// import me from '../../../data/images/robot-frame-with-me-2.png';
+import me from '../../../data/images/me.png';
 import mmxHelmet from '../../../data/images/mmx-helmet.png';
 import './about-me.css';
 import BackButton from '../../back-btn/back-btn';
@@ -18,26 +20,26 @@ export const AboutMe = () => {
     const email = playerInfo.email;
 
     return (
-        <div className="menu-container nes-container with-title is-centered">
+        <div className="about-menu-container nes-container with-title is-centered">
             <h5 className="menu-container-title title">{about.title}</h5>
 
             <div className="hero-status">
-                <div style={{display:'block'}}>
-                    <img alt="me" src={me} className="profile-pic"/>
+                <div className='hero-general-info'>
+                    <WiredImage elevation="5" src={me} className="profile-pic"/>
                     
                     <div className="player-info">
-                        <ul style={{listStyle:'none'}}>
-                            <li>{info.age}</li>
-
-                            <li>{info.local}</li>
-
-                            <li>{email}</li>
-                        </ul>
+                        <p className='text-container'>
+                            {info.age}
+                            <br/>
+                            {info.local}
+                            <br/>
+                            {email}
+                        </p>
                     </div>
                 </div>
 
-                <div style={{width:'34em'}}>
-                    <h3>{status.title}:</h3>
+                <div className='hero-status-bar-container'>
+                    <h3 className='text-container'>{status.title}:</h3>
 
                     <PlayerStatusBar name={status.coding} value="85"/>
                     <PlayerStatusBar color="blue" name={status.unity} value="75"/>
@@ -52,11 +54,11 @@ export const AboutMe = () => {
             <div className="hero-description">
                 {
                     about.paragraphs.map(paragraph => (
-                        <p className="description-paragraph">{paragraph}</p>
+                        <p className="description-paragraph text-container">{paragraph}</p>
                     ))
                 }
 
-                <p><strong>{signature}</strong> <img alt="mmx" src={mmxHelmet} style={{marginBottom:15}}/></p>
+                <p className='text-container'><strong>{signature}</strong> <img alt="mmx" src={mmxHelmet} style={{marginBottom:15}}/></p>
             </div>
 
             <BackButton/>

@@ -3,7 +3,7 @@ import {mainMenu, languages} from '../../../data/data';
 import { LanguageContext } from '../../../contexts/LanguageContext.js';
 import './main-menu.css';
 import "../../../App.css";
-import { HeaderComponent } from '../../header/header-component';
+import { HeaderComponent } from '../../header-component/header-component';
 import { Link } from 'react-router-dom';
 
 export const MainMenu = () => {
@@ -14,8 +14,8 @@ export const MainMenu = () => {
     return ( 
         <div>
         <HeaderComponent/>
-            <div className="menu-container nes-container with-title is-centered">
-                <h5 className="menu-container-title title">{menu.selectOption}</h5>
+            <div className="home-menu-container nes-container with-title is-centered">
+                <h5 className="menu-container-title title"><strong>{menu.selectOption}</strong></h5>
                 <ul className="no-bullets">
                     {
                         menu.menuOptions.map(option => (

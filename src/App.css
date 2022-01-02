@@ -1,24 +1,69 @@
 :root {
   --pixel-btn: url(data/images/pixel-btn.png);
-  --gamer-bg: url(data/images/gamer-bg.png);
+  --gamer-bg: url(data/images/gamer-bg.jpg);
 }
 
 .App {
   text-align: center;
   background-color: #e2e2e2;
-  /* background-image: var(--gamer-bg); */
+  background-image: var(--gamer-bg);
   min-height: 100vh;
   color: black;
   display: flex;
   flex-direction: column;
 }
 
-.menu-container {
+.home-menu-container {
+  margin: 0px 15px 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-menu-container {
   margin: 0px 15px 30px 15px;
 }
 
 .menu-container-title {
-  background-color: #e2e2e2 !important;
+  border: solid !important;
+  background-color: white !important;
+  padding: 5px;
+}
+
+.nes-container h2 {
+  width: fit-content;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  border: solid !important;
+  background-color: white !important;
+  padding: 5px;
+}
+
+.text-container {
+  text-align: center;
+  border: solid !important;
+  background-color: white;
+  background-size: 75%;
+  padding: 5px;
+  margin-bottom: 0px !important;
+}
+
+.nes-container h5 {
+  width: fit-content;
+  border: solid !important;
+  text-align: center !important;
+  background-color: white !important;
+  padding: 5px;
+}
+
+.nes-container p:last-child {
+  display: block;
+  align-self: center;
+}
+
+.last-p {
+  text-align: center !important;
 }
 
 ul.no-bullets {

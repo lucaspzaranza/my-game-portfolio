@@ -69,3 +69,12 @@
   display: flex;
   height: 30px;
 }
+
+.text-container-label {
+  text-align: center;
+  border: solid !important;
+  background-color: white;
+  background-size: 75%;
+  padding: 0px 5px;
+  margin-bottom: 0px !important;
+}

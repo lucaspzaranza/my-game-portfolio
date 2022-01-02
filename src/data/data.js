@@ -114,7 +114,7 @@ export const playerStatus = {
     teamWork: 'Trabalho em equipe',
     gameDesign: 'Game Design',
     pixelArt: 'Pixel Art',
-    gameAudio: 'Áudio para games'
+    gameAudio: 'Áudio'
   },
   en: {
     title: 'Player status',
@@ -129,14 +129,14 @@ export const playerStatus = {
 }
 
 export const playerInfo = {
-  email: 'lucaszaranza@gmail.com',
+  email: 'E-mail: lucaszaranza@gmail.com',
   pt: {
     age: 'Idade: 28 anos',
-    local: 'Fortaleza, CE, Brasil',
+    local: 'De: Fortaleza, Ceará, Brasil',
   },
   en: {
     age: 'Age: 28 years old',
-    local: 'Fortaleza, CE, Brazil',
+    local: 'From: Fortaleza, Ceará, Brazil',
   }
 }
 
@@ -243,8 +243,8 @@ export const myProjectsData = {
         id: 9,
         name: 'Math Factory',
         description: [
-          "Depois do fracasso do Penosas Strike eu caí na real de que precisava arrumar um emprego e pagar as contas. Deixei os jogos por um tempo e fui trabalhar numa escola como cuidador de uma criança especial. Eu o ajudava a fazer as lições, a prestar atenção na aula, tirava suas dúvidas, levava ao banheiro... era como que o pai da criança em horário escolar. Não tinha nada a ver comigo, mas foi o que eu consegui pra pagar as contas e ajudar em casa.",
-          "A criança tinha muitas dificuldades com matemática, que é a minha matéria preferida, e eu sempre gostei de ensinar os assuntos que eu domino. Mas percebi que ensiná-lo da forma tradicional não surtiria efeito, e vi também que ele amava jogos de computador. Resolvi então unir tudo isso numa ideia só e criei uma solução gamificada para ensiná-lo a realizar as operações básicas, como adição, subtração, multiplicação e divisão. ",
+          "Depois do fracasso do Penosas Strike eu caí na real de que precisava arrumar um emprego e pagar as contas. Deixei os jogos por um tempo e fui trabalhar numa escola como cuidador de uma criança especial. Eu o ajudava a fazer as lições, a prestar atenção na aula, tirava suas dúvidas, levava ao banheiro... era como que o pai da criança em horário escolar.",
+          "A criança tinha dificuldades com matemática, que é a minha matéria preferida, e eu sempre gostei de ensinar os assuntos que eu domino. Mas percebi que ensiná-lo da forma tradicional não surtiria efeito, e vi também que ele amava jogos de computador. Resolvi então unir tudo isso numa ideia só e criei uma solução gamificada para ensiná-lo a realizar as operações básicas, como adição, subtração, multiplicação e divisão. ",
           "Tirei o mês de Julho, mês que eu estava de férias, pra fazer um protótipo do jogo. Tive bastante trabalho pra fazer o gerenciamento dos slots ao inserir um novo número, e percebi que talvez a Unity não fosse a melhor ferramenta pra desenvolver aquele tipo de mecânica que envolva mais elementos de UI que elementos de física, talvez um framework JavaScript como o React fosse mais adequado. Vi também que pela altura do ano, talvez a minha solução não fosse ser tão útil para a criança, tendo em vista que ela iria se deparar com assuntos mais avançados que soma e subtração na matemática, apesar das dúvidas dela estarem nesse nível mais elementar. Então resolvi deixar o jogo como estava somente com a adição e subtração.",
           "Nas poucas vezes que usei o jogo com ele, percebi que foi útil sim, mas não sei dizer se o ajudou a entender como funcionam as operações. Quem sabe se eu tivesse detalhado mais, colocado cores, animações, mais elementos visuais, ele tivesse entendido melhor. De qualquer forma, gostei bastante do resultado e da ideia geral. Ensinar matemática de uma forma gamificada é algo que me interessa bastante, que eu acho que consigo fazer bem, e tenho em mente em algum momento da minha vida eu trabalhar com isso."
         ]
