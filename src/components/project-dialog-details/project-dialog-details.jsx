@@ -73,7 +73,7 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
                             <FontAwesomeIcon icon={faGithubSquare} className='link-icon'
                                 style={{'color': 'black'}}/>
                             <div className="nes-balloon from-left custom-baloon">
-                                <p>{linksButtons.github}</p>
+                                <p><strong>{linksButtons.github}</strong></p>
                             </div>
                         </a>
                     }
@@ -83,7 +83,7 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
                         <a className="project-link" href={links.demo}>
                             <i className="snes-jp-logo" style={{'transform': 'scale(1.7)'}}></i>
                             <div className="nes-balloon from-left custom-baloon">
-                                <p>{linksButtons.demo}</p>
+                                <p><strong>{linksButtons.demo}</strong></p>
                             </div>
                         </a>
                     }
@@ -94,7 +94,7 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
                             <FontAwesomeIcon icon={faYoutube} className='link-icon'
                                 style={{'color': 'red'}}/>
                             <div className="nes-balloon from-left custom-baloon">
-                                <p>{linksButtons.youtube}</p>
+                                <p><strong>{linksButtons.youtube}</strong></p>
                             </div>
                         </a>
                     }

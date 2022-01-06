@@ -20,7 +20,7 @@ export const MainMenu = () => {
                     {
                         menu.menuOptions.map(option => (
                             <li>
-                                <Link className="nes-btn menu-item-btn" to={'/' + option.router}>{option.desc}</Link>
+                                <Link className="nes-btn menu-item-btn" to={'/' + option.router}><strong>{option.desc}</strong></Link>
                             </li>
                         ))
                     }
