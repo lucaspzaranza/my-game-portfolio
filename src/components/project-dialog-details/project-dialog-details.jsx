@@ -32,7 +32,7 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
     
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard, 
-        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo
+        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo, bomberman
     ]
 
     return (

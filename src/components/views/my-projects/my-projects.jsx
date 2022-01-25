@@ -34,7 +34,7 @@ export const MyProjects = () => {
 
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard,
-        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo
+        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo, bomberman
     ]
 
     return (

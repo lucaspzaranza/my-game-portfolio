@@ -157,7 +157,8 @@ export const myProjectsYears = [
   2019,
   2020,
   2021,
-  2021
+  2021,
+  2022
 ]
 
 export const myProjectsData = {
@@ -276,6 +277,13 @@ export const myProjectsData = {
           "Esse também foi um protótipo desenvolvido num processo seletivo em que eu tinha que fazer uma cópia do Diep.io utilizando sistema multiplayer, o prazo era de uma semana. Por conta do meu trabalho e de um freelance que eu tive que fazer, acabei tendo menos tempo que o que eu gostaria de ter tido pra fazer o jogo, mas ainda assim consegui terminá-lo no prazo estipulado.",
           "Assim como no jogo anterior, nesse projeto eu também nunca obetive resposta alguma. Não sei o que acontece nessas processos seletivos, pelo visto meu charme é maior do que eu imaginava e eu acabo deixando todos sem palavras."
         ]
+      },
+      {
+        id: 13,
+        name: 'Remake Super Bomberman 4',
+        description: [
+          "Tirei o começo do ano de 2022 pra refazer o primeiro projeto Unity que eu fiz sozinho, que foi o Bomberman 4 em 2013 pra 2014. Fiquei curioso pra me testar e ver minha evolução desses tempos pra cá. Naquela época levei em torno de 6 meses pra fazer. Dessa vez, enxugando um pouco mais o escopo do projeto eu levei 2 semanas e meio. Consegui até deixar algumas coisas bem melhores que antes. O projeto anterior estava com tantos bugs que era impossivel de exportar para uma versão WebGL, dessa vez foi possível. Fiquei bastante satisfeito com o resultado."
+        ]
       }
     ]
   },
@@ -393,6 +401,13 @@ export const myProjectsData = {
           "This project was made during a selection process too, where I had to do a copy of the Diep.io game using multiplayer system, the deadline was one week. Due my job and a freelance I had to do, I had such a short time to make the game, but luckily I finished the game on the week deadline.",
           "Just like the previous project, I didn't received any feedbacks. I don't know what happens during these selection processes, seems like my charm is bigger than I thought and I end by letting everyone speechless."
         ]
+      },
+      {
+        id: 13,
+        name: 'Remake Super Bomberman 4',
+        description: [
+          "I took the beginning of the 2022 year to remake my first Unity project I built alone, the Super Bomberman 4, made in 2013 to 2014. I was curious and eager to test myself and see my evolution since that time. The first time it took from me 6 months to do the prototype. This time, cleaning the scope a little bit, it took from me two and a half weeks. The first project was so messy I couldn't even publish it to a WebGL version, but this time I did it. I've left things better than before. I appreciated the result a lot."
+        ]
       }
     ]
   }
@@ -470,6 +485,12 @@ export const myProjectsLinks = [
     repo: 'https://github.com/lucaspzaranza/diep.io-challenge',
     demo: '',
     youtube: 'https://youtu.be/U4VpCUv47qw'
+  },
+  {
+    id: 13,
+    repo: 'https://github.com/lucaspzaranza/fucking-bomberman-remake',
+    demo: 'https://lucaspzaranza.github.io/super-bomberman4-remake-page/',
+    youtube: 'https://youtu.be/u_16YhfG-js'
   }
 ]  
 
