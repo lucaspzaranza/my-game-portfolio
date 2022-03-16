@@ -3,14 +3,34 @@
   --gamer-bg: url(data/images/gamer-bg.jpg);
 }
 
-.App {
-  text-align: center;
-  background-color: #e2e2e2;
-  background-image: var(--gamer-bg);
-  min-height: 100vh;
-  color: black;
-  display: flex;
-  flex-direction: column;
+@media only screen and (min-width: 1024px) {
+  .App {
+    text-align: center;
+    background-color: #e2e2e2;
+    background-image: var(--gamer-bg);
+    min-height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .player-info-text-container,
+  .text-container {
+    text-align: center;
+    border: solid !important;
+    background-color: white;
+    background-size: 75%;
+    padding: 5px;
+    margin-bottom: 0px !important;
+  }
+
+  .nes-container h5 {
+    width: fit-content;
+    border: solid !important;
+    text-align: center !important;
+    background-color: white !important;
+    padding: 5px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -23,6 +43,46 @@
     display: flex;
     flex-direction: column;
   }
+
+  .text-container {
+    text-align: center;
+    border: solid !important;
+    background-color: white;
+    background-size: 75%;
+    padding: 5px;
+    margin-bottom: 0px !important;
+  }
+
+  .player-info-text-container {
+    text-align: left;
+    border: solid !important;
+    background-color: white;
+    background-size: 75%;
+    padding: 5px;
+    margin-bottom: 0px !important;
+  }
+}
+
+.nes-container p:last-child {
+  display: block;
+  align-self: center;
+}
+
+.last-p {
+  text-align: center !important;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.justify-content {
+  text-align: justify;
 }
 
 .home-menu-container {
@@ -50,45 +110,6 @@
   border: solid !important;
   background-color: white !important;
   padding: 5px;
-}
-
-.text-container {
-  text-align: center;
-  border: solid !important;
-  background-color: white;
-  background-size: 75%;
-  padding: 5px;
-  margin-bottom: 0px !important;
-}
-
-.nes-container h5 {
-  width: fit-content;
-  border: solid !important;
-  text-align: center !important;
-  background-color: white !important;
-  padding: 5px;
-}
-
-.nes-container p:last-child {
-  display: block;
-  align-self: center;
-}
-
-.last-p {
-  text-align: center !important;
-}
-
-ul.no-bullets {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-.justify-content {
-  text-align: justify;
 }
 
 .nes-btn,

@@ -1,8 +1,19 @@
-.flags-nav {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-  margin-right: 14.5px;
+@media only screen and (min-width: 1024px) {
+  .flags-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 14.5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .flags-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    margin-right: 14.5px;
+  }
 }
 
 .flag {

@@ -9,12 +9,14 @@
   --rounded-corner: url("../../data/images/rounded-corner.png");
 }
 
-.player-status-bar {
-  display: flex;
-  justify-content: space-between;
-  width: auto;
-  height: 30px;
-  margin-bottom: 20px;
+@media only screen and (min-width: 1024px) {
+  .player-status-bar {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 30px;
+    margin-bottom: 20px;
+  }
 }
 
 .progress-bar {
@@ -77,4 +79,25 @@
   background-size: 75%;
   padding: 0px 5px;
   margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .player-status-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 30px;
+    margin-bottom: 50px;
+  }
+
+  .text-container-label {
+    font-size: 95%;
+    text-align: center;
+    border: solid !important;
+    background-color: white;
+    background-size: 75%;
+    padding: 0px 5px;
+    margin-bottom: 5px !important;
+  }
 }

@@ -1,11 +1,13 @@
-.menu-item-btn {
-  width: 450px;
-}
+@media only screen and (min-width: 1024px) {
+  .menu-item-btn {
+    width: 450px;
+  }
 
-.menu-nav-button {
-  position: absolute;
-  width: 450px;
-  left: 5%;
+  .menu-nav-button {
+    position: absolute;
+    width: 450px;
+    left: 5%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -19,5 +21,16 @@
 
   .nes-container.with-title.is-centered > .title {
     margin: -3rem auto 1rem;
+  }
+
+  .menu-item-btn {
+    width: 250px;
+  }
+
+  .menu-nav-button {
+    position: absolute;
+    width: auto;
+    display: flex;
+    flex-direction: column;
   }
 }

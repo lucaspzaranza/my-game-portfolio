@@ -27,7 +27,7 @@ export const AboutMe = () => {
                     <WiredImage elevation="5" src={me} className="profile-pic"/>
                     
                     <div className="player-info">
-                        <p className='text-container'>
+                        <p className='player-info-text-container'>
                             {info.age}
                             <br/>
                             {info.local}
