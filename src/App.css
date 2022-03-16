@@ -13,6 +13,18 @@
   flex-direction: column;
 }
 
+@media only screen and (max-width: 1024px) {
+  .App {
+    text-align: center;
+    background-color: #e2e2e2;
+    background-image: var(--gamer-bg);
+    min-height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .home-menu-container {
   margin: 0px 15px 30px 15px;
   display: flex;

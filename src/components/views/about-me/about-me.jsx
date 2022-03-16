@@ -4,8 +4,7 @@ import {LanguageContext} from '../../../contexts/LanguageContext';
 import { aboutMe, languages, playerStatus, playerInfo } from '../../../data/data';
 import PlayerStatusBar from '../../player-status-bar/player-status-bar';
 
-// import me from '../../../data/images/robot-frame-with-me-2.png';
-import me from '../../../data/images/me.png';
+import me from '../../../data/images/me.jpeg';
 import mmxHelmet from '../../../data/images/mmx-helmet.png';
 import './about-me.css';
 import BackButton from '../../back-btn/back-btn';

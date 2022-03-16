@@ -16,7 +16,7 @@ function App() {
   const [lang, setLang] = useState('pt');
  
   return (
-    <LanguageProvider value={[lang, setLang ]}>
+    <LanguageProvider value={[lang, setLang]}>
         <Router>
           <div className="App">
             <LangButtonsMenu/>

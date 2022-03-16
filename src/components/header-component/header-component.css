@@ -3,3 +3,20 @@
   background-color: white !important;
   padding: 5px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .project-title {
+    font-size: 19px;
+  }
+
+  .snes-logo {
+    width: 10%;
+  }
+
+  .home-menu-container {
+    margin: 0px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
