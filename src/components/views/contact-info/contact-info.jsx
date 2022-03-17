@@ -31,7 +31,6 @@ export const ContactInfo = () => {
                         <button type="button" class="nes-btn">Github</button>
                     </a>
                 </div>
-
             
                 <div className='link-container'>
                     <a className="contact-anchor-link" href='https://www.linkedin.com/in/lucas-zaranza-74157a60/'>

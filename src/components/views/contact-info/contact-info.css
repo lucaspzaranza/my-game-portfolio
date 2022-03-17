@@ -1,3 +1,19 @@
+@media only screen and (min-width: 1024px) {
+  .link-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .link-container {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: solid black;
+    padding: 5px;
+  }
+}
+
 .contact-anchor-link button {
   margin-top: 10px;
 }
@@ -12,20 +28,6 @@
   margin-bottom: 20px;
 }
 
-.link-list {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-}
-
-.link-container {
-  height: 200px;
-  width: 200px;
-  background-color: white;
-  border: solid black;
-  padding: 5px;
-}
-
 .link-container:hover {
   text-decoration: none;
   height: 200px;
@@ -37,4 +39,38 @@
 
 .link-btn {
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-container {
+    margin-bottom: 0px !important;
+  }
+
+  .about-menu-container h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about-menu-container h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .link-list {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .link-container {
+    height: 130px;
+    width: 190px;
+    background-color: white;
+    border: solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 30%;
+  }
 }
