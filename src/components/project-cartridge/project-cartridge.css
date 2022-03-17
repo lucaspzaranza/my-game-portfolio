@@ -20,7 +20,8 @@
     display: inline-block;
     width: 70%;
     height: inherit;
-    margin-bottom: 400px;
+    /* margin-bottom: 400px; */
+    margin-bottom: 21rem;
   }
 }
 
