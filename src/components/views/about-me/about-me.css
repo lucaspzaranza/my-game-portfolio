@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    font-size: smaller;
+    font-size: 13px;
   }
 
   .player-info-text-container {
@@ -100,5 +100,14 @@
     flex-direction: column;
     font-weight: bolder;
     text-align: justify;
+  }
+
+  .hero-description p {
+    margin-bottom: 20px !important;
+    text-align: justify;
+  }
+
+  .mmx-helmet {
+    width: 12%;
   }
 }

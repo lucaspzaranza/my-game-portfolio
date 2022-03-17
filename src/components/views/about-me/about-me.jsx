@@ -57,7 +57,7 @@ export const AboutMe = () => {
                     ))
                 }
 
-                <p className='text-container'><strong>{signature}</strong> <img alt="mmx" src={mmxHelmet} style={{marginBottom:15}}/></p>
+                <p className='text-container'><strong>{signature}</strong> <img className='mmx-helmet' alt="mmx" src={mmxHelmet} style={{marginBottom:15}}/></p>
             </div>
 
             <BackButton/>
