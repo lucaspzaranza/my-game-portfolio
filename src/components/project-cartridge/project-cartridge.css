@@ -2,11 +2,26 @@
   --cartridge: url("../../data/images/snes-cartridge-light.png");
 }
 
-.project-container {
-  display: inline-block;
-  width: 40%;
-  height: inherit;
-  margin-bottom: 50px;
+@media only screen and (min-width: 1024px) {
+  .project-container {
+    display: inline-block;
+    width: 40%;
+    height: inherit;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .game-title {
+    font-size: 90%;
+  }
+
+  .project-container {
+    display: inline-block;
+    width: 70%;
+    height: inherit;
+    margin-bottom: 400px;
+  }
 }
 
 .cartridge-container {
