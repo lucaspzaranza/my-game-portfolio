@@ -90,6 +90,10 @@
     text-align: justify;
   }
 
+  .hero-status-bar-container h3 {
+    margin-bottom: 20px !important;
+  }
+
   .text-container:last-child {
     margin-bottom: 20px !important;
     text-align: center;

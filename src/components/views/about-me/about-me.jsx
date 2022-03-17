@@ -38,7 +38,7 @@ export const AboutMe = () => {
                 </div>
 
                 <div className='hero-status-bar-container'>
-                    <h3 className='text-container'>{status.title}:</h3>
+                    <h3 className='text-container status-title'>{status.title}:</h3>
 
                     <PlayerStatusBar name={status.coding} value="85"/>
                     <PlayerStatusBar color="blue" name={status.unity} value="75"/>
