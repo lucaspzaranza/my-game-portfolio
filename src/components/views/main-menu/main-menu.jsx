@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 
 export const MainMenu = () => {
     const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const menu = langContext[0] === pt ? mainMenu.pt : mainMenu.en;
+    const { lang } = useContext(LanguageContext);
+    const menu = lang === pt ? mainMenu.pt : mainMenu.en;
 
     return ( 
         <div>
@@ -19,7 +19,7 @@ export const MainMenu = () => {
                 <ul className="no-bullets">
                     {
                         menu.menuOptions.map(option => (
-                            <li>
+                            <li key={option.router}>
                                 <Link className="nes-btn menu-item-btn" to={'/' + option.router}><strong>{option.desc}</strong></Link>
                             </li>
                         ))

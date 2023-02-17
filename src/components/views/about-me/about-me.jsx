@@ -11,11 +11,11 @@ import BackButton from '../../back-btn/back-btn';
 
 export const AboutMe = () => {
     const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const about = langContext[0] === pt ? aboutMe.pt : aboutMe.en;
+    const { lang } = useContext(LanguageContext);
+    const about = lang === pt ? aboutMe.pt : aboutMe.en;
     const signature = aboutMe.signature;
-    const status = langContext[0] === pt ? playerStatus.pt : playerStatus.en;
-    const info = langContext[0] === pt ? playerInfo.pt : playerInfo.en;
+    const status = lang === pt ? playerStatus.pt : playerStatus.en;
+    const info = lang === pt ? playerInfo.pt : playerInfo.en;
     const email = playerInfo.email;
 
     return (

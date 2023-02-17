@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import "nes.css/css/nes.min.css";
 import './project-dialog-details.css'
 
-import LanguageContext from '../../contexts/LanguageContext';
+import { LanguageContext } from '../../contexts/LanguageContext';
 import { languages, closeBtn, projectLinksButtons, yearMade } from '../../data/data';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

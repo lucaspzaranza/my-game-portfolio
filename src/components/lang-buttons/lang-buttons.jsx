@@ -7,7 +7,7 @@ import { languages } from '../../data/data.js'
 
 export const LangButtonsMenu = () => 
 {
-    const [, setLang ] = useContext(LanguageContext);
+    const { setNewLanguage } = useContext(LanguageContext);
     const pt = languages.pt;
     const en = languages.en;
 
@@ -17,11 +17,11 @@ export const LangButtonsMenu = () =>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <a href="/" onClick={(el) => el.preventDefault()}>
-                            <Flags.BR title="Brazil" className="flag br-flag" onClick={() => setLang(pt)}/>    
+                            <Flags.BR title="Brazil" className="flag br-flag" onClick={() => setNewLanguage(pt)}/>    
                         </a>
 
                         <a href="/" onClick={(el) => el.preventDefault()}>
-                            <Flags.US title="USA" className="flag usa-flag" onClick={() => setLang(en)}/>
+                            <Flags.US title="USA" className="flag usa-flag" onClick={() => setNewLanguage(en)}/>
                         </a>
                     </Nav>
                 </Navbar.Collapse>

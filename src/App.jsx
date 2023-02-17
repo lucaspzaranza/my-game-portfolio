@@ -1,6 +1,6 @@
 import './App.css';
-import React, { useState } from 'react';
-import { LanguageProvider } from './contexts/LanguageContext';
+import React from 'react';
+import { LanguageProvider }  from './contexts/LanguageContext';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { LangButtonsMenu } from "./components/lang-buttons/lang-buttons.jsx";
 
@@ -13,10 +13,8 @@ import Challenges from './components/views/challenges/challenges';
 import ContactInfo from './components/views/contact-info/contact-info';
 
 function App() {
-  const [lang, setLang] = useState('pt');
- 
   return (
-    <LanguageProvider value={[lang, setLang]}>
+    <LanguageProvider>
         <Router>
           <div className="App">
             <LangButtonsMenu/>

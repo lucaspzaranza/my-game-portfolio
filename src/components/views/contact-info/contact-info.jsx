@@ -7,15 +7,15 @@ import gmail from '../../../data/images/gmail.png'
 import github from '../../../data/images/github1.png'
 import code from '../../../data/images/code.png'
 
-import LanguageContext from '../../../contexts/LanguageContext';
+import { LanguageContext } from '../../../contexts/LanguageContext';
 import { useContext } from 'react';
 import { contactInfo, languages } from '../../../data/data';
 import BackButton from '../../back-btn/back-btn';
 
 export const ContactInfo = () => {
     const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const Info = langContext[0] === pt ? contactInfo.pt : contactInfo.en;
+    const { lang } = useContext(LanguageContext);
+    const Info = lang === pt ? contactInfo.pt : contactInfo.en;
 
     return (
         <div className="about-menu-container nes-container with-title is-centered">

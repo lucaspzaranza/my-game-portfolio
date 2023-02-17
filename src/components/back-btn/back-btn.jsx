@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { languages, backBtn } from '../../data/data.js';
-import LanguageContext from '../../contexts/LanguageContext';
+import { LanguageContext } from '../../contexts/LanguageContext';
 
 const BackButton = () => {
     const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const backButton = langContext[0] === pt ? backBtn.pt : backBtn.en;
+    const { lang } = useContext(LanguageContext);
+    const backButton = lang === pt ? backBtn.pt : backBtn.en;
 
     return (
         <Link className="nes-btn menu-nav-button" to='/'>{backButton}</Link>

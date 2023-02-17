@@ -7,8 +7,8 @@ import moon from '../../data/images/moon-outline.png'
 export const MadeBy = () => {
 
     const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const createdBy = langContext[0] === pt? madeBy.pt : madeBy.en;
+    const { lang } = useContext(LanguageContext);
+    const createdBy = lang === pt? madeBy.pt : madeBy.en;
 
     return (
         <footer>

@@ -4,7 +4,7 @@ import './my-projects.css'
 
 import { myProjectsData, myProjectsLinks, myProjectsYears, languages } from '../../../data/data'
 import Carousel from "framer-motion-carousel";
-import LanguageContext from '../../../contexts/LanguageContext';
+import { LanguageContext } from '../../../contexts/LanguageContext';
 import BackButton from '../../back-btn/back-btn';
 import ProjectCartridge from '../../project-cartridge/project-cartridge';
 
@@ -24,13 +24,13 @@ import ProjectDialogDetails from '../../project-dialog-details/project-dialog-de
 import { CarouselArrow } from '../../carousel-arrow/carousel-arrow';
 
 export const MyProjects = () => {
-    const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const title = langContext[0] === pt ? myProjectsData.pt.title : myProjectsData.en.title;
-    const projects = langContext[0] === pt ? myProjectsData.pt.data : myProjectsData.en.data;
+    const { pt } = languages;
+    const { lang } = useContext(LanguageContext);
+    const title = lang === pt ? myProjectsData.pt.title : myProjectsData.en.title;
+    const projects = lang === pt ? myProjectsData.pt.data : myProjectsData.en.data;
     const projectsLinks = myProjectsLinks;
     const years = myProjectsYears;
-    const select = langContext[0] === pt ? myProjectsData.pt.select : myProjectsData.en.select;
+    const select = lang === pt ? myProjectsData.pt.select : myProjectsData.en.select;
 
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard,
