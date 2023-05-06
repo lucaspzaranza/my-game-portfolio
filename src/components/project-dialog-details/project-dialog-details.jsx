@@ -3,7 +3,7 @@ import "nes.css/css/nes.min.css";
 import './project-dialog-details.css'
 
 import { LanguageContext } from '../../contexts/LanguageContext';
-import { languages, closeBtn, projectLinksButtons, yearMade } from '../../data/data';
+import { languages, closeBtn, projectLinksButtons } from '../../data/data';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons/faGithubSquare';
@@ -21,18 +21,28 @@ import mathFactory from '../../data/images/game-project-images/math-factory.png'
 import doomOfThePenosas from '../../data/images/game-project-images/doom-of-the-penosas.png';
 import snake from '../../data/images/game-project-images/snake.png';
 import diepIo from '../../data/images/game-project-images/diep.io.png';
+import rg from '../../data/images/game-project-images/rg.png';
+import emoBears from '../../data/images/game-project-images/emo-bears.png';
+import zazaFilter from '../../data/images/game-project-images/zaza-kahlo.png';
+import meshGame from '../../data/images/game-project-images/mesh-game.png';
+import letterA from '../../data/images/game-project-images/letra-a.png';
+import catPuzzle from '../../data/images/game-project-images/cat-puzzle.png';
+import fantasyOrReality from '../../data/images/game-project-images/fantasy-or-reality.png';
+import supermarket from '../../data/images/game-project-images/supermarket-game.png';
+import roboRunner from '../../data/images/game-project-images/robo-runner.png';
+
 import { WiredCard } from 'wired-elements-react';
 
-export const ProjectDialogDetails = ({projectIndex, title, description, year, links}) => {
+export const ProjectDialogDetails = ({projectIndex, title, description, yearText, year, links}) => {
     const {pt} = languages;
-    const langContext = useContext(LanguageContext);
-    const closeButton = langContext[0] === pt ? closeBtn.pt : closeBtn.en;
-    const yearTxt = langContext[0] === pt ? yearMade.pt : yearMade.en;
-    const linksButtons = langContext[0] === pt ? projectLinksButtons.pt : projectLinksButtons.en;
+    const { langContext } = useContext(LanguageContext);
+    const closeButton = langContext === pt ? closeBtn.pt : closeBtn.en;
+    const linksButtons = langContext === pt ? projectLinksButtons.pt : projectLinksButtons.en;
     
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard, 
-        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo, bomberman
+        penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo, bomberman, rg, emoBears,
+        zazaFilter, meshGame, letterA, catPuzzle, fantasyOrReality, supermarket, roboRunner
     ]
 
     return (
@@ -49,7 +59,7 @@ export const ProjectDialogDetails = ({projectIndex, title, description, year, li
                     <p className="project-description">
                         <WiredCard elevation={5}> 
                                 <strong>
-                                    {yearTxt}: {year}
+                                    {yearText}: {year}
                                 </strong>
                         </WiredCard>
                     </p>
