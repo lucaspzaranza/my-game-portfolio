@@ -5,7 +5,6 @@ import linkedin from '../../../data/images/linkedin.png'
 import instagram from '../../../data/images/instagram.png'
 import gmail from '../../../data/images/gmail.png'
 import github from '../../../data/images/github1.png'
-import code from '../../../data/images/code.png'
 
 import { LanguageContext } from '../../../contexts/LanguageContext';
 import { useContext } from 'react';
