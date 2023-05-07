@@ -512,7 +512,7 @@ export const myProjectsData = {
           }
         }
       },
-      {
+      { 
         id: 14,
         year: 2022,
         links: {
