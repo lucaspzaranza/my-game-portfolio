@@ -5,9 +5,18 @@
 }
 
 .project-subtitle {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   width: auto;
   align-items: center;
+}
+
+.about-menu-container .cartridges {
+  margin-top: 40px;
+  padding: 15px;
+  display: grid;
+  grid-gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(3, calc(33.33% - 20px));
 }

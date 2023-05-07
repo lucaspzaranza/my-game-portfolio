@@ -53,12 +53,12 @@ export const ContactInfo = () => {
                     </a>
                 </div>
 
-                <div className='link-container'>
+                {/* <div className='link-container'>
                     <a className="contact-anchor-link" href='https://lucaszaranza.netlify.app/'>
                         <img alt='portfolio' src={code}/>
                         <button type="button" class="nes-btn link-btn">Portfolio</button>
                     </a>
-                </div>
+                </div> */}
             </div>
             <BackButton/>
         </div>

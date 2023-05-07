@@ -1,8 +1,7 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import "nes.css/css/nes.min.css";
 import './project-dialog-details.css'
 
-import { LanguageContext } from '../../contexts/LanguageContext';
 import { languages, closeBtn, projectLinksButtons } from '../../data/data';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -33,11 +32,11 @@ import roboRunner from '../../data/images/game-project-images/robo-runner.png';
 
 import { WiredCard } from 'wired-elements-react';
 
-export const ProjectDialogDetails = ({projectIndex, title, description, yearText, year, links}) => {
+export const ProjectDialogDetails = ({projectIndex, language, title, description, yearText, year, links}) => {
     const {pt} = languages;
-    const { langContext } = useContext(LanguageContext);
-    const closeButton = langContext === pt ? closeBtn.pt : closeBtn.en;
-    const linksButtons = langContext === pt ? projectLinksButtons.pt : projectLinksButtons.en;
+    
+    const closeButton = language === pt ? closeBtn.pt : closeBtn.en;
+    const linksButtons = language === pt ? projectLinksButtons.pt : projectLinksButtons.en;
     
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard, 

@@ -66,11 +66,12 @@ export const aboutMe = {
 
       'Em 2013 eu descobri a engine Unity3D, um amigo me emprestou um livro que ensinava a fazer um Space Invaders com ela, e foi aí que eu tive ' +
       'os meus primeiros aprendizados com a plataforma. Passava horas e mais horas programando. Na época não haviam tantos tutoriais como hoje, então ' +
-      'muita coisa eu tentei fazer do zero. Praticamente aprendi a programar criando jogos nessa plataforma.',
+      'muita coisa eu tentei fazer do zero. Boa parte do meu aprendizado em programação se deu nessa época.',
+      
+      'Sonho um dia poder criar histórias e mundos fantásticos em que as pessoas possam, além de se divertir, ' +
+      'maravilhar-se com o que estão jogando. Mais que diversão, jogos também são arte.',
 
-      'Desde então já se foram 10 anos, com alguns pequenos projetos lançados, freelances, muitas, muitas tentativas de ingressar nessa ' +
-      'área de trabalho, e uma série de aprendizados a cada desafio encarado. Sonho um dia poder criar histórias e mundos fantásticos em que as ' +
-      'pessoas possam, além de se divertir, maravilhar-se com o que estão jogando. Mais que diversão, jogos também são arte.',
+      'Já se foram cerca de 10 anos de trajetória. Sigo atualmente como desenvolvedor freelancer.',
 
       'Muito prazer.'
     ]
@@ -86,9 +87,10 @@ export const aboutMe = {
       "my first learning phase with the engine. I spent hours and hours programming. At that time there wasn't so much tutorials like today, so I tried to " +
       'do many things from scratch. I practically learned how to code making games with this engine.',
 
-      'Since then it has been passed 10 years, with some small projects launched, freelances, many, many attempts to join this work area, and a lot of ' +
-      'lessons at each surpassed challenge. My dream is to create stories and wonderful universes where people may not only get fun, but be amazed ' +
+      'My dream is to create stories and wonderful universes where people may not only get fun, but be amazed ' +
       'with the game they are playing, either. More than fun, games are art too.',
+
+      "It's been about 10 years on the road. Nowadays I'm acting as a freelancer developer.",
 
       'Nice to meet you.'
     ]
@@ -526,7 +528,7 @@ export const myProjectsData = {
           description: {
             pt: [
               "Em 2022 eu peguei um projeto como freelancer para desenvolver uma série de jogos educativos. Esse é o projeto para que elas conheçam uma Carteira de Identidade.",
-              "A dificuldade desse projeto foi a responsividade para telas mobile, então é como se cada projeto fosse um 2 em 1. A depender do dispositivo, um projeto totalmente novo é carregado para se ajustar à responsividade das telas."
+              "A dificuldade desse projeto foi a responsividade para telas mobile, então é como se cada projeto fosse um 2 em 1. A depender do dispositivo, um projeto totalmente novo é carregado para se ajustar à responsividade das telas.",
             ],
             en: [
               "In 2022 I got a project as a freelancer to develop a series of educational games. This is the project to present the Identity Card to the children.",

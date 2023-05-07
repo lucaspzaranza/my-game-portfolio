@@ -8,6 +8,7 @@
     text-align: center;
     background-color: #e2e2e2;
     background-image: var(--gamer-bg);
+    /* background-position: bottom; */
     min-height: 100vh;
     color: black;
     display: flex;

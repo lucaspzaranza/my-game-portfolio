@@ -2,8 +2,7 @@ import React, { useContext } from 'react';
 import "nes.css/css/nes.min.css";
 import './my-projects.css'
 
-import { myProjectsData, languages, yearMade } from '../../../data/data'
-import Carousel from "framer-motion-carousel";
+import { myProjectsData, yearMade } from '../../../data/data'
 import { LanguageContext } from '../../../contexts/LanguageContext';
 import BackButton from '../../back-btn/back-btn';
 import ProjectCartridge from '../../project-cartridge/project-cartridge';
@@ -31,7 +30,6 @@ import supermarketGame from '../../../data/images/game-project-images/cartridges
 import runnerGame from '../../../data/images/game-project-images/cartridges/runner-cartridge.png';
 
 import ProjectDialogDetails from '../../project-dialog-details/project-dialog-details';
-import { CarouselArrow } from '../../carousel-arrow/carousel-arrow';
 
 export const MyProjects = () => {
     const { lang } = useContext(LanguageContext);
@@ -52,21 +50,17 @@ export const MyProjects = () => {
             <div className='project-subtitle'>
                 <h4 className='text-container'><strong>{select}</strong></h4>
             </div>
-            
-            <Carousel interval={3000} autoPlay={false}
-                renderArrowLeft={({handlePrev}) => <CarouselArrow isLeft={true} handleArrow={handlePrev}/>} 
-                renderArrowRight={({handleNext}) => <CarouselArrow isLeft={false} handleArrow={handleNext}/>} 
-            >
-            {
-               
-                projects.map((project, index) => (
-                    <div key={index}>
-                        <ProjectCartridge name={project.texts.name[lang]} projectIndex={index} image={images[index]}/>
-                        <ProjectDialogDetails projectIndex={index} yearText={yearText} year={project.year} links={project.links}
-                            title={project.texts.name[lang]} description={project.texts.description[lang]}/>
-                    </div>
-            ))}
-            </Carousel>
+
+            <div class='cartridges'>
+                {
+                    projects.map((project, index) => (
+                        <div  key={index}>
+                            <ProjectCartridge name={project.texts.name[lang]} projectIndex={index} image={images[index]}/>
+                            <ProjectDialogDetails projectIndex={index} language={lang} yearText={yearText} year={project.year} links={project.links}
+                                title={project.texts.name[lang]} description={project.texts.description[lang]}/>
+                        </div>
+                ))}
+            </div>
 
             <BackButton/>
         </div>
