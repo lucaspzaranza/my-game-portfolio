@@ -32,13 +32,13 @@
 .project-description {
   color: black;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 12.5px;
   text-align: justify;
   padding: 5px;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .project-link {

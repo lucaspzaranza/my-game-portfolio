@@ -114,4 +114,8 @@
   .mmx-helmet {
     width: 12%;
   }
+  
+  .description-paragraph{
+    font-size: 0.83em;
+  }
 }
