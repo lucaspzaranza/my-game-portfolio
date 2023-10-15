@@ -133,11 +133,11 @@ export const playerStatus = {
 export const playerInfo = {
   email: 'E-mail: lucaszaranza@gmail.com',
   pt: {
-    age: 'Idade: 29 anos',
+    age: 'Idade: 30 anos',
     local: 'De: Fortaleza, Ceará, Brasil',
   },
   en: {
-    age: 'Age: 29 years old',
+    age: 'Age: 30 years old',
     local: 'From: Fortaleza, Ceará, Brazil',
   }
 }
