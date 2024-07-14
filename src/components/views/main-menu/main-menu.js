@@ -3,7 +3,7 @@ import {mainMenu, languages} from '../../../data/data';
 import { LanguageContext } from '../../../contexts/LanguageContext.js';
 import './main-menu.css';
 import "../../../App.css";
-import { HeaderComponent } from '../../header-component/header-component';
+import { HeaderComponent } from '../../header-component/header-component.js';
 import { Link } from 'react-router-dom';
 
 export const MainMenu = () => {

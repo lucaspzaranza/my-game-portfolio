@@ -1,11 +1,11 @@
 :root {
   --progress-fill: 100%;
   --progress-width: 200px;
-  --bar-url-default: url("rpgui/img/progress.png");
-  --bar-url-red: url("rpgui/img/progress-red.png");
-  --bar-url-blue: url("rpgui/img/progress-blue.png");
-  --bar-url-green: url("rpgui/img/progress-green.png");
-  --bar-url-track: url("rpgui/img/progress-bar-track.png");
+  --bar-url-default: url("../../data/images/rpgui/img/progress.png");
+  --bar-url-red: url("../../data/images/rpgui/img/progress-red.png");
+  --bar-url-blue: url("../../data/images/rpgui/img/progress-blue.png");
+  --bar-url-green: url("../../data/images/rpgui/img/progress-green.png");
+  --bar-url-track: url("../../data/images/rpgui/img/progress-bar-track.png");
   --rounded-corner: url("../../data/images/rounded-corner.png");
 }
 

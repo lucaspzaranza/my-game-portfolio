@@ -1,3 +1,4 @@
+import React from 'react';
 import './player-status-bar.css'
 
 export const PlayerStatusBar = (prop) => {

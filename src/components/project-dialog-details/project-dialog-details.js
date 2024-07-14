@@ -29,6 +29,8 @@ import catPuzzle from '../../data/images/game-project-images/cat-puzzle.png';
 import fantasyOrReality from '../../data/images/game-project-images/fantasy-or-reality.png';
 import supermarket from '../../data/images/game-project-images/supermarket-game.png';
 import roboRunner from '../../data/images/game-project-images/robo-runner.png';
+import cupCleaning from '../../data/images/game-project-images/limpa-copo.png'
+import loveQuizz from '../../data/images/game-project-images/love-quiz.png'
 
 import { WiredCard } from 'wired-elements-react';
 
@@ -41,7 +43,8 @@ export const ProjectDialogDetails = ({projectIndex, language, title, description
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard, 
         penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo, bomberman, rg, emoBears,
-        zazaFilter, meshGame, letterA, catPuzzle, fantasyOrReality, supermarket, roboRunner
+        zazaFilter, meshGame, letterA, catPuzzle, fantasyOrReality, supermarket, roboRunner,
+        cupCleaning, loveQuizz
     ]
 
     return (

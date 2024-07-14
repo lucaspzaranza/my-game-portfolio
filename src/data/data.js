@@ -217,9 +217,9 @@ export const myProjectsData = {
         id: 3,
         year: 2014,
         links: {
-          repo: '',
-          demo: '',
-          youtube: 'https://youtu.be/sZzrtTpx0qo'
+          repo: 'https://github.com/lucaspzaranza/flappy-bird',
+          demo: 'https://lucaspzaranza.github.io/flappy-bird-webgl/',
+          youtube: 'https://youtube.com/shorts/vNJFnJMritI'
         },
         texts: {
           name: {
@@ -229,13 +229,13 @@ export const myProjectsData = {
           description: {
             pt: [
               "Fazia pouco tempo do sucesso do Flappy Bird, e eu estava fazendo um tutorial no YouTube para conseguir replicar o Flappy Bird na Unity. Pessoal do meu trabalho achou interessante levar essa ideia aos eventos deles.",
-              "Fizemos então algumas adaptações na dificuldade do jogo, já que ele é extremamente difícil (e irritante) e adicionamos algumas funcionalidades pra captação dos dados dos clientes. Como eu fiz o game seguindo vídeo tutoriais não tive dificuldades de implementar a mecânica. O que foi mais complicado foi ter criado um sistema de Ranking para gerar competição entre os participantes do evento e distribuição de prêmios.",
-              "Infelizmente eu perdi todos os arquivos do projeto e não pude criar um repositório."
+              "Eu tinha perdido o repositório do projeto criado na época, então 2024 eu resolvi recriar o projeto do zero.",
+              "Projeto adaptado para telas de celulares."
             ],
             en: [
               "The Flappy Bird game were making success by a few time ago, and I was making the game following a YouTube tutorial which was teaching how to do the game in Unity. The guys from my job thought that use this game at the events would be a good deal.",
-              "We made then some adaptations on the game difficulty, since it is extremely hard (and annoying!), we've added some features to client contact info captation, and we were ready to go. Since the game was made following up a tutorial, I had no great difficulties on the game development. The hard part was to create a ranking system to make people contest between them and manage the prize distribution.",
-              "Sadly I lost the project repository and Unity project data too."
+              "I've lost the project repo created at that time, so I decided to recreate it from scratch at year 2024.",
+              "Project Resolution adapted for mobile screens."
             ]
           }
         }
@@ -685,9 +685,59 @@ export const myProjectsData = {
           },
           description: {
             pt: ["Jogo desenvolvido em um processo seletivo em que deram os assets de imagem para mim e me deram uma semana pra desenvolver um game mobile com aqueles assets.",
-                 "Infelizmente não tive tempo de preparar melhor a demo online, a qual ficou estranha e eu não peguei mais no projeto desde então."],
+                 "Recomendado testar a demo em algum dispositivo móvel devido sua resolução."],
             en: ["A developed game in an interview process in which they gave me the image assets and gave me 1 week to make a mobile game with those assets.",
-                 "Unfortunately I hadn't time to prepare the online demo, which became weird and I didn't touch the project again."]
+                 "Recommended using a mobile device for testing the demo due its resolution."]
+          }
+        }
+      },
+      {
+        id: 23,
+        year: 2024,
+        links: {
+          repo: '',
+          demo: 'https://lucaspzaranza.github.io/limpa-copo-webgl/',
+          youtube: ''
+        },
+        texts: {
+          name: {
+            pt: 'Jogo de Limpar Copo',
+            en: "Cup Cleaning Game"
+          },
+          description: {
+            pt: [
+              "Projeto freelance feito para uma ação do Dia Mundial da Água.",
+              "Recomendado testar a demo em algum dispositivo móvel devido sua resolução."
+            ],
+            en: [
+              "Freelance project made for an event related with the World Water Day.",
+              "Recommended using a mobile device for testing the demo due its resolution."
+              ]
+          }
+        }
+      },
+      {
+        id: 24,
+        year: 2024,
+        links: {
+          repo: 'https://github.com/lucaspzaranza/quizz-game',
+          demo: 'https://lucaspzaranza.github.io/love-quizz/',
+          youtube: ''
+        },
+        texts: {
+          name: {
+            pt: 'Quiz do Amor',
+            en: "Valentine's Quiz"
+          },
+          description: {
+            pt: [
+              "Projeto freelance que eu fiz para um evento do dia dos namorados.",
+              "Recomendado testar a demo em algum dispositivo móvel devido sua resolução."
+            ],
+            en: [
+              "Freelance project I made for a Valentine's Day event.",
+              "Recommended using a mobile device for testing the demo due its resolution."
+              ]
           }
         }
       }

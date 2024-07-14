@@ -1,4 +1,4 @@
-import { React, useContext } from 'react';
+import React, { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext.js';
 import './lang-buttons.css';
 import Flags from 'country-flag-icons/react/3x2'

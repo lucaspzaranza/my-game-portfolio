@@ -2,7 +2,7 @@ import React from 'react';
 import './contact-info.css'
 
 import linkedin from '../../../data/images/linkedin.png'
-import instagram from '../../../data/images/instagram.png'
+// import instagram from '../../../data/images/instagram.png'
 import gmail from '../../../data/images/gmail.png'
 import github from '../../../data/images/github1.png'
 
@@ -38,12 +38,12 @@ export const ContactInfo = () => {
                     </a>
                 </div>
             
-                <div className='link-container'>
+                {/* <div className='link-container'>
                     <a className="contact-anchor-link" href='https://www.instagram.com/lucaspzaranza/'>
                         <img alt='instagram' src={instagram}/>
                         <button type="button" class="nes-btn link-btn">Instagram</button>
                     </a>
-                </div>
+                </div> */}
             
                 <div className='link-container'>
                     <a className="contact-anchor-link" href='mailto:lucaszaranza@gmail.com'>

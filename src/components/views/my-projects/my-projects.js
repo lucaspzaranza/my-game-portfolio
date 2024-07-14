@@ -28,6 +28,8 @@ import puzzleTime from '../../../data/images/game-project-images/cartridges/puzz
 import fantasyOrReality from '../../../data/images/game-project-images/cartridges/fantasy-cartridge.png';
 import supermarketGame from '../../../data/images/game-project-images/cartridges/supermarket-cartridge.png';
 import runnerGame from '../../../data/images/game-project-images/cartridges/runner-cartridge.png';
+import cupCleaning from '../../../data/images/game-project-images/cartridges/limpa-copo.png';
+import loveQuizz from '../../../data/images/game-project-images/cartridges/love-quizz.png';
 
 import ProjectDialogDetails from '../../project-dialog-details/project-dialog-details';
 
@@ -41,7 +43,8 @@ export const MyProjects = () => {
     const images = [
         bomberman, roleta, flappyBird, catchGame, slotMachine, matchGame, virtualKeyboard,
         penosasStrike, mathFactory, doomOfThePenosas, snake, diepIo, bomberman, rg, emocionometro,
-        insta, meshGame, cursiveLetter, puzzleTime, fantasyOrReality, supermarketGame, runnerGame
+        insta, meshGame, cursiveLetter, puzzleTime, fantasyOrReality, supermarketGame, runnerGame,
+        cupCleaning, loveQuizz
     ]
 
     return (

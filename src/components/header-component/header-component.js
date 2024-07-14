@@ -1,4 +1,4 @@
-import { React, useContext } from 'react';
+import React, { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext.js';
 import "./header-component.css"
 
