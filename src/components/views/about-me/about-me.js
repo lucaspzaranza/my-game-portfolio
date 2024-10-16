@@ -18,6 +18,20 @@ export const AboutMe = () => {
     const info = lang === pt ? playerInfo.pt : playerInfo.en;
     const email = playerInfo.email;
 
+    const getAge = (playerInfo) => {
+        const dateOfBirth = new Date(playerInfo.ageBirth);
+        const today = new Date();
+        var yearsOld = today.getFullYear() - dateOfBirth.getFullYear();
+
+        if(today.getMonth() <= dateOfBirth.getMonth() && today.getDate() < dateOfBirth.getDate()) {
+            yearsOld--;
+        }
+        return yearsOld;
+    }
+
+    const calulatedAge = getAge(info);
+    const ageString = `${info.age}: ${calulatedAge} ${info.years}`
+
     return (
         <div className="about-menu-container nes-container with-title is-centered">
             <h5 className="menu-container-title title">{about.title}</h5>
@@ -28,7 +42,7 @@ export const AboutMe = () => {
                     
                     <div className="player-info">
                         <p className='player-info-text-container'>
-                            {info.age}
+                            {ageString}
                             <br/>
                             {info.local}
                             <br/>
